@@ -1,0 +1,5 @@
+module OpenSSL [system] {
+	header "shims.h"
+	link "ssl"
+	link "crypto"
+}

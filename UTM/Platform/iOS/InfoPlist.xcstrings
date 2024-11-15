@@ -1,0 +1,491 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM"
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription" : {
+      "comment" : "Privacy - Local Network Usage Description",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die VMs benötigten Zugriff auf das lokale Netzwerk. Außerdem wird der Zugriff für die AltServer-Verbindung benötigt."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM usa la red nativa para encontrar y comunicarse con AltServer."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM käyttää alkuperäistä verkkoa löytääkseen AltServerin ja viestiäkseen sen kanssa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM utilise le réseau natif pour trouver et communiquer avec AltServer."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La macchina virtuale può accedere alla rete locale. Inoltre, UTM, si avvale della rete locale per comunicare con AltServer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仮想マシンがローカルネットワークにアクセスできるようになります。UTMもローカルサーバと通信するためにネットワークを使用することがあります。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM używa sieci lokalnej, aby znaleźć i połączyć się do zdalnych serwerów UTM."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM использует собственную сеть для поиска и обмена данными с AltServer."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虚拟机可能会访问本地网络。UTM 还使用本地网络与 AltServer 通信。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 使用本機網路尋找並與 AltServer 通訊。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虛擬電腦可以訪問本地網絡。UTM 還會使用本地網絡與 AltServer 進行通信。"
+          }
+        }
+      }
+    },
+    "NSLocationAlwaysAndWhenInUseUsageDescription" : {
+      "comment" : "Privacy - Location Always and When In Use Usage Description",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM verwendet den Ortungs-Zugriff nur, um die App im Hintergrund weiter auszuführen. Die Ortungsdaten werden nicht verwendet."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El acceso en segundo plano a la máquina virtual requiere de los servicios de localización. Los datos de ubicación no se transfieren fuera del dispositivo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virtuaalikoneen taustakäyttö edellyttää sijaintipalveluita. Sijaintitietoja ei siirretä pois puhelimesta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'accès en arrière-plan de la machine virtuelle nécessite des services de localisation. Les données de localisation ne sont pas transférées hors du téléphone."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM richiede il permesso di accedere alla posizione periodicamente per assicurarsi che il sistema mantenga il processo in background. I dati raccolti sulla posizione non lasceranno il tuo dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTMは定期的に位置データを要求することで、システムがバックグラウンドプロセスをアクティブに保つようにします。位置データが送信されることはありません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM okazjonalnie prosi o dane lokalizacyjne, aby upewnić się, że system utrzymuje aktywny proces w tle. Dane o lokalizacji nigdy nie opuszczą urządzenia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для фонового доступа к виртуальной машине требуются службы определения местоположения. Данные о местоположении не передаются за пределы устройства."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 定期请求位置数据，以确保系统保持后台进程处于活动状态。位置数据永远不会离开设备。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虛擬機背景存取權需要位置服務。位置資料不會傳出手機。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 定期請求位置資料，以確保系統保持背景程序處於啟用狀態。位置資料永不離開設備。"
+          }
+        }
+      }
+    },
+    "NSLocationAlwaysUsageDescription" : {
+      "comment" : "Privacy - Location Always Usage Description",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM verwendet den Ortungs-Zugriff nur, um die App im Hintergrund weiter auszuführen. Die Ortungsdaten werden nicht verwendet."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El acceso en segundo plano a la máquina virtual requiere de los servicios de localización. Los datos de ubicación no se transfieren fuera del dispositivo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virtuaalikoneen taustakäyttö edellyttää sijaintipalveluita. Sijaintitietoja ei siirretä pois puhelimesta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'accès en arrière-plan de la machine virtuelle nécessite des services de localisation. Les données de localisation ne sont pas transférées hors du téléphone."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM richiede il permesso di accedere alla posizione periodicamente per assicurarsi che il sistema mantenga il processo in background. I dati raccolti sulla posizione non lasceranno il tuo dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTMは定期的に位置データを要求することで、システムがバックグラウンドプロセスをアクティブに保つようにします。位置データが送信されることはありません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM okazjonalnie prosi o dane lokalizacyjne, aby upewnić się, że system utrzymuje aktywny proces w tle. Dane o lokalizacji nigdy nie opuszczą urządzenia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 定期请求位置数据，以确保系统保持后台进程处于活动状态。位置数据永远不会离开设备。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虛擬機背景存取權需要位置服務。位置資料不會傳出手機。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 定期請求位置資料，以確保系統保持背景程序處於啟用狀態。位置資料永不離開設備。"
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "comment" : "Privacy - Location When In Use Usage Description",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM verwendet den Ortungs-Zugriff nur, um die App im Hintergrund weiter auszuführen. Die Ortungsdaten werden nicht verwendet."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El acceso en segundo plano a la máquina virtual requiere de los servicios de localización. Los datos de ubicación no se transfieren fuera del dispositivo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virtuaalikoneen taustakäyttö edellyttää sijaintipalveluita. Sijaintitietoja ei siirretä pois puhelimesta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'accès en arrière-plan de la machine virtuelle nécessite des services de localisation. Les données de localisation ne sont pas transférées hors du téléphone."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM richiede il permesso di accedere alla posizione periodicamente per assicurarsi che il sistema mantenga il processo in background. I dati raccolti sulla posizione non lasceranno il tuo dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTMは定期的に位置データを要求することで、システムがバックグラウンドプロセスをアクティブに保つようにします。位置データが送信されることはありません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM okazjonalnie prosi o dane lokalizacyjne, aby upewnić się, że system utrzymuje aktywny proces w tle. Dane o lokalizacji nigdy nie opuszczą urządzenia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для фонового доступа к виртуальной машине требуются службы определения местоположения. Данные о местоположении не передаются за пределы устройства."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 定期请求位置数据，以确保系统保持后台进程处于活动状态。位置数据永远不会离开设备。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虛擬機背景存取權需要位置服務。位置資料不會傳出手機。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 定期請求位置資料，以確保系統保持背景程序處於啟用狀態。位置資料永不離開設備。"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Privacy - Microphone Usage Description",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für Mikrofonzugriff in der VM wird Ihre Erlaubnis benötigt."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La máquina virtual necesita el acceso al micrófono."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virtuaalikone vaatii pääsyn mikrofoniin."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La machine virtuelle nécessite un accès au microphone."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permette alle Macchine Virtuali di accedere al Microfono"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仮想マシンがマイクから録音するには、アクセス許可が必要です。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wymagane są uprawnienia dla maszyny wirtualnej, aby używać mikrofonu."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виртуальной машине необходим доступ к микрофону."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任何虚拟机都需要获得许可才能从麦克风录音。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虛擬機需要麥克風存取權。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任何虛擬電腦都需要許可才能由咪高風進行錄製。"
+          }
+        }
+      }
+    },
+    "UTM virtual machine" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virtuelle Maschine (UTM)"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máquina virtual de UTM"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM-virtuaalikone"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Machine virtuelle UTM"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macchina Virtuale UTM"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM仮想マシン"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maszyna wirtualna UTM"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виртуальная машина UTM"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 虚拟机"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 虛擬機"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UTM 虛擬電腦"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

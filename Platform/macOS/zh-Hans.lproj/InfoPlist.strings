@@ -1,9 +1,0 @@
-/* Bundle name */
-"CFBundleName" = "UTM";
-
-/* Privacy - Microphone Usage Description */
-"NSMicrophoneUsageDescription" = "任何虚拟机都需要获得权限才能从麦克风进行录音。";
-
-/* (No Comment) */
-"UTM virtual machine" = "UTM 虚拟机";
-
