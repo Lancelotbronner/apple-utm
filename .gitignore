@@ -68,6 +68,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 build*/
-sysroot*/
+sysroot*
 .DS_Store
 CodeSigning.xcconfig

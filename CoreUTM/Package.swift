@@ -7,6 +7,7 @@ let package = Package(
 	name: "CoreUTM",
 	platforms: [
 		.macOS(.v11),
+		.iOS(.v14),
 	],
 	products: [
 		.library(name: "CoreUTM", targets: ["CoreUTM"]),
@@ -16,13 +17,7 @@ let package = Package(
 		.package(url: "https://github.com/utmapp/CocoaSpice.git", branch: "main"),
 	],
 	targets: [
-		.systemLibrary(
-			name: "OpenSSL",
-			pkgConfig: "openssl",
-			providers: [
-				.apt(["openssl libssl-dev"]),
-				.brew(["openssl"]),
-			]),
+		.target(name: "OpenSSL"),
 
 		.target(
 			name: "CoreUTM",

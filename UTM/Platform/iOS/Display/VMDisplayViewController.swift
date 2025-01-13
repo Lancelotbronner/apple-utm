@@ -1,5 +1,5 @@
 //
-// Copyright © 2021 osy. All rights reserved.
+// Copyright © 2025 osy. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,31 +14,41 @@
 // limitations under the License.
 //
 
-import SwiftUI
+import UIKit
 
-private var memoryAlertOnce = false
+public final class VMDisplayViewController: UIViewController {
 
-@objc public extension VMDisplayViewController {
+    public weak var delegate: (any VMDisplayViewControllerDelegate)?
+
+    public var hasAutoSave: Bool
+
+    public override var prefersHomeIndicatorAutoHidden: Bool {
+        didSet { setNeedsUpdateOfHomeIndicatorAutoHidden() }
+    }
+
+    public override var prefersPointerLocked: Bool {
+        didSet { setNeedsUpdateOfPrefersPointerLocked() }
+    }
+
     var runInBackground: Bool {
         boolForSetting("RunInBackground")
     }
-    
+
     var disableIdleTimer: Bool {
         boolForSetting("DisableIdleTimer")
     }
-}
 
-// MARK: - View Loading
-public extension VMDisplayViewController {
+    //MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
-    
+
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         if let parent = parent {
@@ -47,7 +57,7 @@ public extension VMDisplayViewController {
             UIPress.pressResponderOverride = nil
         }
     }
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if let parent = parent {
@@ -55,30 +65,26 @@ public extension VMDisplayViewController {
             parent.setChildViewControllerForPointerLock(self)
             UIPress.pressResponderOverride = self
         }
-        #if !os(visionOS) && WITH_LOCATION_BACKGROUND
+#if !os(visionOS) && WITH_LOCATION_BACKGROUND
         if runInBackground {
             logger.info("Start location tracking to enable running in background")
             UTMLocationManager.sharedInstance().startUpdatingLocation()
         }
-        #endif
+#endif
         delegate.displayDidAppear()
     }
-}
 
-@objc extension VMDisplayViewController {
     func enterSuspended(isBusy busy: Bool) {
-        if !busy {
-            UIApplication.shared.isIdleTimerDisabled = false
-        }
+        guard !busy else { return }
+        UIApplication.shared.isIdleTimerDisabled = false
     }
-    
+
     func enterLive() {
         UIApplication.shared.isIdleTimerDisabled = disableIdleTimer
     }
-}
 
-// MARK: Toolbar hiding
-public extension VMDisplayViewController {
+    //MARK: - Toolbar Management
+
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
             if touch.type == .direct {
@@ -88,33 +94,27 @@ public extension VMDisplayViewController {
         }
         super.touchesBegan(touches, with: event)
     }
-}
 
-// MARK: Helper functions
-@objc public extension VMDisplayViewController {
-    /*
-     - (void)onDelay:(float)delay action:(void (^)(void))block {
-         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC*0.1), dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0), block);
-     }
+    //MARK: - Utilities
 
-     - (BOOL)boolForSetting:(NSString *)key {
-         return [[NSUserDefaults standardUserDefaults] boolForKey:key];
-     }
+    public func showKeyboard() {
+        view.window?.makeKey()
+    }
 
-     - (NSInteger)integerForSetting:(NSString *)key {
-         return [[NSUserDefaults standardUserDefaults] integerForKey:key];
-     }
-     */
+    public func hideKeyboard() {
+        view.window?.resignKey()
+    }
+
     func onDelay(_ delay: Float, action: @escaping () -> Void) {
         DispatchQueue.global(qos: .userInitiated).asyncAfter(deadline: .now() + .milliseconds(100), execute: action)
     }
-    
+
     func boolForSetting(_ key: String) -> Bool {
-        return UserDefaults.standard.bool(forKey: key)
+        UserDefaults.standard.bool(forKey: key)
     }
-    
+
     func integerForSetting(_ key: String) -> Int {
-        return UserDefaults.standard.integer(forKey: key)
+        UserDefaults.standard.integer(forKey: key)
     }
 
     @discardableResult
@@ -127,4 +127,5 @@ public extension VMDisplayViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(delaySeconds), execute: item)
         return item
     }
+
 }

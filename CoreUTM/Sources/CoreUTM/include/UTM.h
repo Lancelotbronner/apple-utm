@@ -40,18 +40,11 @@
 #endif
 
 #if TARGET_OS_IPHONE
-#if defined(WITH_LOCATION_BACKGROUND)
-#include "UTMLocationManager.h"
-#endif
-#include "VMDisplayViewController.h"
-//#if !defined(TARGET_OS_VISION) || !TARGET_OS_VISION
-#include "VMDisplayMetalViewController.h"
-#include "VMDisplayMetalViewController+Keyboard.h"
-//#endif
-#include "VMKeyboardButton.h"
-#include "VMKeyboardView.h"
-
+	#if defined(WITH_LOCATION_BACKGROUND)
+	#include "UTMLocationManager.h"
+	#endif
 #elif TARGET_OS_OSX
+
 #include <Carbon/Carbon.h>
 typedef uint32_t CGSConnectionID;
 typedef CF_ENUM(uint32_t, CGSGlobalHotKeyOperatingMode) {
@@ -60,6 +53,7 @@ typedef CF_ENUM(uint32_t, CGSGlobalHotKeyOperatingMode) {
 };
 extern CGSConnectionID CGSMainConnectionID(void);
 extern CGError CGSSetGlobalHotKeyOperatingMode(CGSConnectionID connection, CGSGlobalHotKeyOperatingMode mode);
+
 #endif
 
 NSString *const kUTMErrorDomain;

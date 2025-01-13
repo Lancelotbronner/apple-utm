@@ -22,7 +22,8 @@
 #import "CSDisplay.h"
 #import "VMScroll.h"
 #import "UTMLogging.h"
-#import "UTM-Swift.h"
+
+@import CoreUTM;
 
 @interface VMDisplayMetalViewController ()
 

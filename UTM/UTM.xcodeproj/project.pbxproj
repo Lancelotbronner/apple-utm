@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732F0B012D35356900D518A8 /* CoreUTM in Frameworks */ = {isa = PBXBuildFile; productRef = 732FFB992D352ED100D518A8 /* CoreUTM */; };
+		736146CA2D34DE3F00EA8778 /* glib-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736146C92D34DE3F00EA8778 /* glib-2.0.0.framework */; };
+		7387DB992D34F92700A690FC /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */; };
+		73EA90E02CF4D91E007CD75B /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA624AEDEF000B44AB6 /* Logging */; };
+		73EA90E12CF4D91E007CD75B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 83993291272F68550059355F /* ZIPFoundation */; };
+		73EA90E22CF4D91E007CD75B /* QEMUKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A0A8892A47D5D10038F329 /* QEMUKit */; };
+		73EA90E32CF4D91E007CD75B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 83993293272F685F0059355F /* ZIPFoundation */; };
+		73EA90E42CF4D91E007CD75B /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 8401865B2887AFDC0050AC51 /* SwiftTerm */; };
+		73EA90E52CF4D91E007CD75B /* QEMUKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A0A88B2A47D5D70038F329 /* QEMUKit */; };
 		73EDCDC52CE750CC00A581BE /* CoreUTM in Frameworks */ = {isa = PBXBuildFile; productRef = 73EDCDC42CE750CC00A581BE /* CoreUTM */; };
+		73EDE24B2CE770DF00A581BE /* ssl.1.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641722653C7500FC7E63 /* ssl.1.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83993290272F4A400059355F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 8399328F272F4A400059355F /* ZIPFoundation */; };
-		83993292272F68550059355F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 83993291272F68550059355F /* ZIPFoundation */; };
-		83993294272F685F0059355F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 83993293272F685F0059355F /* ZIPFoundation */; };
 		8401865A2887AFD50050AC51 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 840186592887AFD50050AC51 /* SwiftTerm */; };
-		8401865C2887AFDC0050AC51 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 8401865B2887AFDC0050AC51 /* SwiftTerm */; };
 		84018695288B66370050AC51 /* SwiftUIVisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 84018694288B66370050AC51 /* SwiftUIVisualEffects */; };
 		8401FD7A269BECE200265F0D /* QEMULauncher.app in Embed Launcher */ = {isa = PBXBuildFile; fileRef = 8401FD62269BE9C500265F0D /* QEMULauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8453DCB2278CE3D10037A0DA /* qemu-img.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8453DCB0278CE33E0037A0DA /* qemu-img.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		846D878629050B6B0095F10B /* InAppSettingsKit in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 846D878529050B6B0095F10B /* InAppSettingsKit */; };
-		84818C0C2898A07A009EDB67 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84818C0B2898A07A009EDB67 /* AVFAudio.framework */; };
-		84818C0D2898A07F009EDB67 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84818C0B2898A07A009EDB67 /* AVFAudio.framework */; };
 		848308D5278A1F2200E3E474 /* Virtualization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848308D4278A1F2200E3E474 /* Virtualization.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		848F71E6277A2466006A0240 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 848F71E5277A2466006A0240 /* SwiftTerm */; };
 		84937F1D289767EC003148F4 /* zstd.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84937EFE28960789003148F4 /* zstd.1.framework */; };
@@ -26,8 +32,6 @@
 		84937F1F289767F0003148F4 /* zstd.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84937EFE28960789003148F4 /* zstd.1.framework */; };
 		84937F20289767F0003148F4 /* zstd.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84937EFE28960789003148F4 /* zstd.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84A0A8882A47D5C50038F329 /* QEMUKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A0A8872A47D5C50038F329 /* QEMUKit */; };
-		84A0A88A2A47D5D10038F329 /* QEMUKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A0A8892A47D5D10038F329 /* QEMUKit */; };
-		84A0A88C2A47D5D70038F329 /* QEMUKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A0A88B2A47D5D70038F329 /* QEMUKit */; };
 		84B36D1E27B3264600C22685 /* CocoaSpice in Frameworks */ = {isa = PBXBuildFile; productRef = 84B36D1D27B3264600C22685 /* CocoaSpice */; };
 		84B36D2027B3264E00C22685 /* CocoaSpiceNoUsb in Frameworks */ = {isa = PBXBuildFile; productRef = 84B36D1F27B3264E00C22685 /* CocoaSpiceNoUsb */; };
 		84B36D2227B3265400C22685 /* CocoaSpice in Frameworks */ = {isa = PBXBuildFile; productRef = 84B36D2127B3265400C22685 /* CocoaSpice */; };
@@ -37,21 +41,14 @@
 		84E3A8FB293DB7240024A740 /* utmctl in Embed CLI Tool */ = {isa = PBXBuildFile; fileRef = 84E3A8F0293DB37E0024A740 /* utmctl */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		84E3A900293DBC290024A740 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 84E3A8FF293DBC290024A740 /* ArgumentParser */; };
 		B329049C270FE136002707AC /* AltKit in Frameworks */ = {isa = PBXBuildFile; productRef = B329049B270FE136002707AC /* AltKit */; };
-		B3DDF57226E9BBA300CE47F0 /* AltKit in Frameworks */ = {isa = PBXBuildFile; productRef = B3DDF57126E9BBA300CE47F0 /* AltKit */; };
-		CE020BA724AEDEF000B44AB6 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA624AEDEF000B44AB6 /* Logging */; };
 		CE020BA924AEDF3000B44AB6 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA824AEDF3000B44AB6 /* Logging */; };
 		CE02C8AB294EE4EB006DFE48 /* qemu-loongarch64-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A8294EE4EA006DFE48 /* qemu-loongarch64-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE02C8AC294EE4EC006DFE48 /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; };
-		CE02C8AD294EE4EC006DFE48 /* slirp.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE02C8B1294EE58C006DFE48 /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; };
 		CE02C8B2294EE58C006DFE48 /* slirp.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE02C8B3294EE59A006DFE48 /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; };
-		CE02C8B4294EE59A006DFE48 /* slirp.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE02C8B6294EE59F006DFE48 /* qemu-loongarch64-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A8294EE4EA006DFE48 /* qemu-loongarch64-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE03D08624D90F0700F76B84 /* gmodule-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63D822653C7300FC7E63 /* gmodule-2.0.0.framework */; };
 		CE03D08724D90F0700F76B84 /* gobject-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F522653C7400FC7E63 /* gobject-2.0.0.framework */; };
 		CE03D08824D90F0700F76B84 /* gio-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F822653C7400FC7E63 /* gio-2.0.0.framework */; };
-		CE03D08924D90F0700F76B84 /* glib-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640422653C7500FC7E63 /* glib-2.0.0.framework */; };
 		CE03D08A24D90F2900F76B84 /* intl.8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DA22653C7300FC7E63 /* intl.8.framework */; };
 		CE03D08B24D90F2900F76B84 /* jpeg.62.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63D922653C7300FC7E63 /* jpeg.62.framework */; };
 		CE03D08C24D9123E00F76B84 /* gio-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63F822653C7400FC7E63 /* gio-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -66,8 +63,6 @@
 		CE03D0C724D913E600F76B84 /* opus.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640322653C7500FC7E63 /* opus.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D0C824D913FD00F76B84 /* pixman-1.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641922653C7600FC7E63 /* pixman-1.0.framework */; };
 		CE03D0C924D9140A00F76B84 /* pixman-1.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641922653C7600FC7E63 /* pixman-1.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D0CA24D9142000F76B84 /* ssl.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641722653C7500FC7E63 /* ssl.1.1.framework */; };
-		CE03D0CB24D9142500F76B84 /* ssl.1.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641722653C7500FC7E63 /* ssl.1.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D0CC24D9144100F76B84 /* crypto.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */; };
 		CE03D0CD24D9144500F76B84 /* crypto.1.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D0CE24D9A30100F76B84 /* iconv.2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641522653C7500FC7E63 /* iconv.2.framework */; };
@@ -159,7 +154,6 @@
 		CE0DF1AE25A83C1700A51894 /* qemu-x86_64-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640022653C7500FC7E63 /* qemu-x86_64-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0DF1AF25A83C1700A51894 /* qemu-xtensa-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63ED22653C7400FC7E63 /* qemu-xtensa-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0DF1B025A83C1700A51894 /* qemu-xtensaeb-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641222653C7500FC7E63 /* qemu-xtensaeb-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE0E9B87252FD06B0026E02B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E9B86252FD06B0026E02B /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CE231D522BE03617006D6DC3 /* SwiftCopyfile in Frameworks */ = {isa = PBXBuildFile; productRef = CE231D512BE03617006D6DC3 /* SwiftCopyfile */; };
 		CE231D542BE03630006D6DC3 /* SwiftCopyfile in Frameworks */ = {isa = PBXBuildFile; productRef = CE231D532BE03630006D6DC3 /* SwiftCopyfile */; };
 		CE231D562BE03636006D6DC3 /* SwiftCopyfile in Frameworks */ = {isa = PBXBuildFile; productRef = CE231D552BE03636006D6DC3 /* SwiftCopyfile */; };
@@ -169,7 +163,6 @@
 		CE2D932E24AD46670059923A /* libgstvideoconvert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19542265425900355E14 /* libgstvideoconvert.a */; };
 		CE2D932F24AD46670059923A /* libgstaudioconvert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19552265425900355E14 /* libgstaudioconvert.a */; };
 		CE2D933024AD46670059923A /* libgstvideoscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19562265425900355E14 /* libgstvideoscale.a */; };
-		CE2D933124AD46670059923A /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE66450C2269313200B0849A /* MetalKit.framework */; };
 		CE2D933224AD46670059923A /* libgstvolume.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19572265425900355E14 /* libgstvolume.a */; };
 		CE2D933324AD46670059923A /* libgstcoreelements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19582265425900355E14 /* libgstcoreelements.a */; };
 		CE2D933424AD46670059923A /* libgstvideorate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19592265425900355E14 /* libgstvideorate.a */; };
@@ -304,7 +297,6 @@
 		CEA45F27263519B5002FA97D /* libgstaudioconvert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19552265425900355E14 /* libgstaudioconvert.a */; };
 		CEA45F28263519B5002FA97D /* libgstvideoscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19562265425900355E14 /* libgstvideoscale.a */; };
 		CEA45F29263519B5002FA97D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = CEA45E22263519B5002FA97D /* IQKeyboardManagerSwift */; };
-		CEA45F2A263519B5002FA97D /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE66450C2269313200B0849A /* MetalKit.framework */; };
 		CEA45F2B263519B5002FA97D /* libgstvolume.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19572265425900355E14 /* libgstvolume.a */; };
 		CEA45F2C263519B5002FA97D /* libgstcoreelements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19582265425900355E14 /* libgstcoreelements.a */; };
 		CEA45F2D263519B5002FA97D /* libgstvideorate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19592265425900355E14 /* libgstvideorate.a */; };
@@ -333,7 +325,6 @@
 		CEA45F45263519B5002FA97D /* gstbase-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E822653C7400FC7E63 /* gstbase-1.0.0.framework */; };
 		CEA45F46263519B5002FA97D /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CEA45E20263519B5002FA97D /* Logging */; };
 		CEA45F47263519B5002FA97D /* phodav-3.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE059DC0243BD67100338317 /* phodav-3.0.0.framework */; };
-		CEA45F49263519B5002FA97D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E9B86252FD06B0026E02B /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CEA45F4A263519B5002FA97D /* gstcontroller-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63EE22653C7400FC7E63 /* gstcontroller-1.0.0.framework */; };
 		CEA45F4B263519B5002FA97D /* gstaudio-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63EF22653C7400FC7E63 /* gstaudio-1.0.0.framework */; };
 		CEA45F4C263519B5002FA97D /* gpg-error.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F122653C7400FC7E63 /* gpg-error.0.framework */; };
@@ -437,7 +428,6 @@
 		CEF7F6312AEEDCC400E34952 /* libgstaudioconvert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19552265425900355E14 /* libgstaudioconvert.a */; };
 		CEF7F6322AEEDCC400E34952 /* libgstvideoscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19562265425900355E14 /* libgstvideoscale.a */; };
 		CEF7F6332AEEDCC400E34952 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = CEF7F5862AEEDCC400E34952 /* IQKeyboardManagerSwift */; };
-		CEF7F6342AEEDCC400E34952 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE66450C2269313200B0849A /* MetalKit.framework */; };
 		CEF7F6352AEEDCC400E34952 /* libgstvolume.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19572265425900355E14 /* libgstvolume.a */; };
 		CEF7F6362AEEDCC400E34952 /* libgstcoreelements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19582265425900355E14 /* libgstcoreelements.a */; };
 		CEF7F6372AEEDCC400E34952 /* libgstvideorate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19592265425900355E14 /* libgstvideorate.a */; };
@@ -461,7 +451,6 @@
 		CEF7F64C2AEEDCC400E34952 /* gthread-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DC22653C7300FC7E63 /* gthread-2.0.0.framework */; };
 		CEF7F64D2AEEDCC400E34952 /* gstrtp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DD22653C7400FC7E63 /* gstrtp-1.0.0.framework */; };
 		CEF7F64E2AEEDCC400E34952 /* gstriff-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DE22653C7400FC7E63 /* gstriff-1.0.0.framework */; };
-		CEF7F6512AEEDCC400E34952 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84818C0B2898A07A009EDB67 /* AVFAudio.framework */; };
 		CEF7F6522AEEDCC400E34952 /* gstreamer-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E022653C7400FC7E63 /* gstreamer-1.0.0.framework */; };
 		CEF7F6532AEEDCC400E34952 /* json-glib-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E222653C7400FC7E63 /* json-glib-1.0.0.framework */; };
 		CEF7F6542AEEDCC400E34952 /* ffi.7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E322653C7400FC7E63 /* ffi.7.framework */; };
@@ -470,7 +459,6 @@
 		CEF7F6572AEEDCC400E34952 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CEF7F5842AEEDCC400E34952 /* Logging */; };
 		CEF7F6582AEEDCC400E34952 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = CEF7F58E2AEEDCC400E34952 /* SwiftTerm */; };
 		CEF7F65A2AEEDCC400E34952 /* phodav-3.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE059DC0243BD67100338317 /* phodav-3.0.0.framework */; };
-		CEF7F65C2AEEDCC400E34952 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0E9B86252FD06B0026E02B /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CEF7F65D2AEEDCC400E34952 /* gstcontroller-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63EE22653C7400FC7E63 /* gstcontroller-1.0.0.framework */; };
 		CEF7F65E2AEEDCC400E34952 /* gstaudio-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63EF22653C7400FC7E63 /* gstaudio-1.0.0.framework */; };
 		CEF7F65F2AEEDCC400E34952 /* gpg-error.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F122653C7400FC7E63 /* gpg-error.0.framework */; };
@@ -605,6 +593,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				73EDE24B2CE770DF00A581BE /* ssl.1.1.framework in Embed Libraries */,
 				CE0B6F1F24AD679E00FE012D /* gstcontroller-1.0.0.framework in Embed Libraries */,
 				CEF83F8E250094EC00557D15 /* gpg-error.0.framework in Embed Libraries */,
 				CE0B6F1A24AD679500FE012D /* gstallocators-1.0.0.framework in Embed Libraries */,
@@ -634,7 +623,6 @@
 				CE03D08D24D9123F00F76B84 /* glib-2.0.0.framework in Embed Libraries */,
 				CEA9059625FC6A3B00801E7C /* usbredirparser.1.framework in Embed Libraries */,
 				CE0B6F2724AD67AA00FE012D /* gstrtsp-1.0.0.framework in Embed Libraries */,
-				CE03D0CB24D9142500F76B84 /* ssl.1.1.framework in Embed Libraries */,
 				CE03D0CF24D9A33000F76B84 /* iconv.2.framework in Embed Libraries */,
 				CE03D0CD24D9144500F76B84 /* crypto.1.1.framework in Embed Libraries */,
 				CE03D08E24D9124100F76B84 /* gmodule-2.0.0.framework in Embed Libraries */,
@@ -650,7 +638,6 @@
 				CE0DF19625A83C1700A51894 /* qemu-arm-softmmu.framework in Embed Libraries */,
 				CE0DF19725A83C1700A51894 /* qemu-cris-softmmu.framework in Embed Libraries */,
 				CE0DF19825A83C1700A51894 /* qemu-hppa-softmmu.framework in Embed Libraries */,
-				CE02C8B4294EE59A006DFE48 /* slirp.0.framework in Embed Libraries */,
 				CEA9054225F982C400801E7C /* usb-1.0.0.framework in Embed Libraries */,
 				CE0DF19925A83C1700A51894 /* qemu-i386-softmmu.framework in Embed Libraries */,
 				CE0DF19A25A83C1700A51894 /* qemu-m68k-softmmu.framework in Embed Libraries */,
@@ -698,7 +685,6 @@
 				CE2D937C24AD46670059923A /* ssl.1.1.framework in Embed Libraries */,
 				CEA9059125FC6A3300801E7C /* usbredirhost.1.framework in Embed Libraries */,
 				CE2D937D24AD46670059923A /* gio-2.0.0.framework in Embed Libraries */,
-				CE02C8AD294EE4EC006DFE48 /* slirp.0.framework in Embed Libraries */,
 				CE2D937E24AD46670059923A /* png16.16.framework in Embed Libraries */,
 				CE2D937F24AD46670059923A /* gstnet-1.0.0.framework in Embed Libraries */,
 				CE2D938024AD46670059923A /* qemu-cris-softmmu.framework in Embed Libraries */,
@@ -905,10 +891,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		73EDDA692CE76BAF00A581BE /* phodav-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "phodav-2.0.0.framework"; path = "sysroot-macos-arm64/Frameworks/phodav-2.0.0.framework"; sourceTree = "<group>"; };
+		736146C92D34DE3F00EA8778 /* glib-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "glib-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/glib-2.0.0.framework"; sourceTree = "<group>"; };
+		73EA79222CF4D752007CD75B /* CoreUTM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreUTM; path = ../CoreUTM; sourceTree = SOURCE_ROOT; };
+		73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ssl.1.1.framework; path = "$(SYSROOT_DIR)/Frameworks/ssl.1.1.framework"; sourceTree = "<group>"; };
 		8401FD62269BE9C500265F0D /* QEMULauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QEMULauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8453DCB0278CE33E0037A0DA /* qemu-img.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-img.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-img.framework"; sourceTree = "<group>"; };
-		84818C0B2898A07A009EDB67 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
 		848308D4278A1F2200E3E474 /* Virtualization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Virtualization.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Virtualization.framework; sourceTree = DEVELOPER_DIR; };
 		84937EFE28960789003148F4 /* zstd.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = zstd.1.framework; path = "$(SYSROOT_DIR)/Frameworks/zstd.1.framework"; sourceTree = "<group>"; };
 		84C5068528CA5702007CE8FF /* Hypervisor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hypervisor.framework; path = "$(SYSROOT_DIR)/Frameworks/Hypervisor.framework"; sourceTree = "<group>"; };
@@ -917,7 +904,6 @@
 		CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = slirp.0.framework; path = "$(SYSROOT_DIR)/Frameworks/slirp.0.framework"; sourceTree = "<group>"; };
 		CE059DC0243BD67100338317 /* phodav-3.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "phodav-3.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/phodav-3.0.0.framework"; sourceTree = "<group>"; };
 		CE064C642A563F4A003C833D /* swtpm.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swtpm.0.framework; path = "$(SYSROOT_DIR)/Frameworks/swtpm.0.framework"; sourceTree = "<group>"; };
-		CE0E9B86252FD06B0026E02B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		CE2D63D722653C7300FC7E63 /* qemu-i386-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-i386-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-i386-softmmu.framework"; sourceTree = "<group>"; };
 		CE2D63D822653C7300FC7E63 /* gmodule-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gmodule-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gmodule-2.0.0.framework"; sourceTree = "<group>"; };
 		CE2D63D922653C7300FC7E63 /* jpeg.62.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jpeg.62.framework; path = "$(SYSROOT_DIR)/Frameworks/jpeg.62.framework"; sourceTree = "<group>"; };
@@ -987,7 +973,6 @@
 		CE5451A226AF5F0F008594E5 /* epoxy.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = epoxy.0.framework; path = "$(SYSROOT_DIR)/Frameworks/epoxy.0.framework"; sourceTree = "<group>"; };
 		CE5451A326AF5F0F008594E5 /* GLESv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLESv2.framework; path = "$(SYSROOT_DIR)/Frameworks/GLESv2.framework"; sourceTree = "<group>"; };
 		CE5451A426AF5F0F008594E5 /* EGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EGL.framework; path = "$(SYSROOT_DIR)/Frameworks/EGL.framework"; sourceTree = "<group>"; };
-		CE66450C2269313200B0849A /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		CE9A352D26533A51005077CF /* JailbreakInterposer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JailbreakInterposer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9D18F72265410E00355E14 /* qemu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = qemu; path = "$(SYSROOT_DIR)/share/qemu"; sourceTree = "<group>"; };
 		CE9D19522265425900355E14 /* libgstautodetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgstautodetect.a; path = "$(SYSROOT_DIR)/lib/gstreamer-1.0/libgstautodetect.a"; sourceTree = "<group>"; };
@@ -1019,6 +1004,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		732F12D72D35362200D518A8 /* Exceptions for "Remote" folder in "macOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				InfoPlist.xcstrings,
+			);
+			target = CE2D951B24AD48BE0059923A /* macOS */;
+		};
+		7387DB692D34E37900A690FC /* Exceptions for "JailbreakInterposer" folder in "JailbreakInterposer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CE9A352C26533A51005077CF /* JailbreakInterposer */;
+		};
 		73EDB7E72CE7276C00A581BE /* Exceptions for "Scripting" folder in "utmctl" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -1050,15 +1049,16 @@
 		73EDDA662CE7680200A581BE /* Exceptions for "iOS" folder in "iOS-Remote" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Display/VMDisplayMetalViewController+Gamepad.swift",
 				Info.plist,
+				InfoPlist.xcstrings,
 			);
 			target = CEF7F5812AEEDCC400E34952 /* iOS-Remote */;
 		};
 		73EDDA672CE7680A00A581BE /* Exceptions for "iOS" folder in "iOS-SE" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Info-Remote.plist",
-				"Info-RemotePlist.xcstrings",
+				"Display/VMDisplayMetalViewController+Gamepad.swift",
 				Info.plist,
 			);
 			target = CEA45E1F263519B5002FA97D /* iOS-SE */;
@@ -1066,8 +1066,13 @@
 		73EDDA682CE7681D00A581BE /* Exceptions for "iOS" folder in "iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Info-Remote.plist",
-				"Info-RemotePlist.xcstrings",
+				Display/VMDisplayMetalViewController.m,
+				"Display/VMDisplayMetalViewController+Gamepad.m",
+				"Display/VMDisplayMetalViewController+Gamepad.swift",
+				"Display/VMDisplayMetalViewController+Keyboard.m",
+				"Display/VMDisplayMetalViewController+Pencil.m",
+				"Display/VMDisplayMetalViewController+Pointer.m",
+				"Display/VMDisplayMetalViewController+Touch.m",
 				Info.plist,
 			);
 			target = CE2D926824AD46670059923A /* iOS */;
@@ -1075,6 +1080,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		732F0EE72D35359500D518A8 /* Virtualization */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Virtualization;
+			sourceTree = "<group>";
+		};
+		732FFBAB2D3531AE00D518A8 /* Virtualization */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Virtualization;
+			sourceTree = "<group>";
+		};
 		73EDB7982CE7275800A581BE /* QEMUHelper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -1093,6 +1108,9 @@
 		};
 		73EDB7AF2CE7276100A581BE /* JailbreakInterposer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7387DB692D34E37900A690FC /* Exceptions for "JailbreakInterposer" folder in "JailbreakInterposer" target */,
+			);
 			path = JailbreakInterposer;
 			sourceTree = "<group>";
 		};
@@ -1139,6 +1157,9 @@
 		};
 		73EDDA522CE75C3300A581BE /* Remote */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				732F12D72D35362200D518A8 /* Exceptions for "Remote" folder in "macOS" target */,
+			);
 			path = Remote;
 			sourceTree = "<group>";
 		};
@@ -1164,13 +1185,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732F0B012D35356900D518A8 /* CoreUTM in Frameworks */,
+				73EA90E22CF4D91E007CD75B /* QEMUKit in Frameworks */,
+				73EA90E12CF4D91E007CD75B /* ZIPFoundation in Frameworks */,
+				73EA90E02CF4D91E007CD75B /* Logging in Frameworks */,
 				CE2D932C24AD46670059923A /* libgstautodetect.a in Frameworks */,
 				CE2D932D24AD46670059923A /* libgstaudiotestsrc.a in Frameworks */,
 				CE2D932E24AD46670059923A /* libgstvideoconvert.a in Frameworks */,
 				CE2D932F24AD46670059923A /* libgstaudioconvert.a in Frameworks */,
 				CE2D933024AD46670059923A /* libgstvideoscale.a in Frameworks */,
 				CE93759924BB821F0074066F /* IQKeyboardManagerSwift in Frameworks */,
-				CE2D933124AD46670059923A /* MetalKit.framework in Frameworks */,
 				CE231D542BE03630006D6DC3 /* SwiftCopyfile in Frameworks */,
 				CE2D933224AD46670059923A /* libgstvolume.a in Frameworks */,
 				CE2D933324AD46670059923A /* libgstcoreelements.a in Frameworks */,
@@ -1179,10 +1203,8 @@
 				CE2D933524AD46670059923A /* libgstjpeg.a in Frameworks */,
 				CE2D933624AD46670059923A /* libgstaudioresample.a in Frameworks */,
 				CE2D933724AD46670059923A /* libgstplayback.a in Frameworks */,
-				84A0A88A2A47D5D10038F329 /* QEMUKit in Frameworks */,
 				CE2D933824AD46670059923A /* libgstadder.a in Frameworks */,
 				CE2D933A24AD46670059923A /* libgstaudiorate.a in Frameworks */,
-				B3DDF57226E9BBA300CE47F0 /* AltKit in Frameworks */,
 				CE2D933B24AD46670059923A /* libgstvideofilter.a in Frameworks */,
 				84018695288B66370050AC51 /* SwiftUIVisualEffects in Frameworks */,
 				84937F1D289767EC003148F4 /* zstd.1.framework in Frameworks */,
@@ -1193,7 +1215,6 @@
 				CE2D934024AD46670059923A /* libgstosxaudio.a in Frameworks */,
 				CE2D934124AD46670059923A /* gmodule-2.0.0.framework in Frameworks */,
 				CE2D934224AD46670059923A /* jpeg.62.framework in Frameworks */,
-				83993292272F68550059355F /* ZIPFoundation in Frameworks */,
 				CE2D934324AD46670059923A /* intl.8.framework in Frameworks */,
 				CE2D934424AD46670059923A /* gstapp-1.0.0.framework in Frameworks */,
 				CE2D934524AD46670059923A /* gthread-2.0.0.framework in Frameworks */,
@@ -1201,19 +1222,15 @@
 				CE2D934724AD46670059923A /* gstriff-1.0.0.framework in Frameworks */,
 				B329049C270FE136002707AC /* AltKit in Frameworks */,
 				CEA9058F25FC6A1400801E7C /* usbredirhost.1.framework in Frameworks */,
-				84818C0C2898A07A009EDB67 /* AVFAudio.framework in Frameworks */,
 				CE2D934924AD46670059923A /* gstreamer-1.0.0.framework in Frameworks */,
 				CE2D934B24AD46670059923A /* json-glib-1.0.0.framework in Frameworks */,
 				CE89CB0E2B8B1B5A006B2CC2 /* VisionKeyboardKit in Frameworks */,
 				CE2D934C24AD46670059923A /* ffi.7.framework in Frameworks */,
 				CE2D934D24AD46670059923A /* gstnet-1.0.0.framework in Frameworks */,
 				CE2D934E24AD46670059923A /* gstbase-1.0.0.framework in Frameworks */,
-				CE020BA724AEDEF000B44AB6 /* Logging in Frameworks */,
 				8401865A2887AFD50050AC51 /* SwiftTerm in Frameworks */,
-				CE02C8AC294EE4EC006DFE48 /* slirp.0.framework in Frameworks */,
 				CE2D934F24AD46670059923A /* phodav-3.0.0.framework in Frameworks */,
 				CEA9059025FC6A1700801E7C /* usbredirparser.1.framework in Frameworks */,
-				CE0E9B87252FD06B0026E02B /* SwiftUI.framework in Frameworks */,
 				CE2D935024AD46670059923A /* gstcontroller-1.0.0.framework in Frameworks */,
 				CE2D935124AD46670059923A /* gstaudio-1.0.0.framework in Frameworks */,
 				CE2D935224AD46670059923A /* gpg-error.0.framework in Frameworks */,
@@ -1249,6 +1266,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736146CA2D34DE3F00EA8778 /* glib-2.0.0.framework in Frameworks */,
+				73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */,
 				CEA9058925FC69D100801E7C /* usbredirhost.1.framework in Frameworks */,
 				CEA9058A25FC69D100801E7C /* usbredirparser.1.framework in Frameworks */,
 				CEA9053825F981E900801E7C /* usb-1.0.0.framework in Frameworks */,
@@ -1256,7 +1275,6 @@
 				CE0B6EF024AD677200FE012D /* gstcontroller-1.0.0.framework in Frameworks */,
 				CE0B6EE024AD677200FE012D /* libgstosxaudio.a in Frameworks */,
 				CE0B6F0D24AD677200FE012D /* libgstadder.a in Frameworks */,
-				CE02C8B3294EE59A006DFE48 /* slirp.0.framework in Frameworks */,
 				CE0B6EF224AD677200FE012D /* gstallocators-1.0.0.framework in Frameworks */,
 				CE03D08B24D90F2900F76B84 /* jpeg.62.framework in Frameworks */,
 				CE0B6EBC24AD677200FE012D /* gstpbutils-1.0.0.framework in Frameworks */,
@@ -1280,6 +1298,7 @@
 				CE0B6EF424AD677200FE012D /* json-glib-1.0.0.framework in Frameworks */,
 				CEDD11C12B7C74D7004DDAC6 /* SwiftPortmap in Frameworks */,
 				CE0B6ED124AD677200FE012D /* phodav-3.0.0.framework in Frameworks */,
+				7387DB992D34F92700A690FC /* (null) in Frameworks */,
 				CEF83F862500947D00557D15 /* gcrypt.20.framework in Frameworks */,
 				CE0B6ECB24AD677200FE012D /* gstcheck-1.0.0.framework in Frameworks */,
 				CE0B6F0724AD677200FE012D /* libgstvolume.a in Frameworks */,
@@ -1305,11 +1324,9 @@
 				CE0B6EE224AD677200FE012D /* gstnet-1.0.0.framework in Frameworks */,
 				CE03D08624D90F0700F76B84 /* gmodule-2.0.0.framework in Frameworks */,
 				CED297142CE425CB00F1E3EB /* soup-3.0.0.framework in Frameworks */,
-				CE03D0CA24D9142000F76B84 /* ssl.1.1.framework in Frameworks */,
 				CE0B6EC624AD677200FE012D /* gstfft-1.0.0.framework in Frameworks */,
 				CE0B6EE624AD677200FE012D /* libgstaudiorate.a in Frameworks */,
 				CEF83F8A250094B200557D15 /* spice-server.1.framework in Frameworks */,
-				CE03D08924D90F0700F76B84 /* glib-2.0.0.framework in Frameworks */,
 				CE0B6EC224AD677200FE012D /* libgstvideorate.a in Frameworks */,
 				CE0B6F0C24AD677200FE012D /* gstreamer-1.0.0.framework in Frameworks */,
 				CEF83F89250094A400557D15 /* png16.16.framework in Frameworks */,
@@ -1333,17 +1350,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73EA90E52CF4D91E007CD75B /* QEMUKit in Frameworks */,
+				73EA90E42CF4D91E007CD75B /* SwiftTerm in Frameworks */,
+				73EA90E32CF4D91E007CD75B /* ZIPFoundation in Frameworks */,
 				CEA45F24263519B5002FA97D /* libgstautodetect.a in Frameworks */,
 				CEA45F25263519B5002FA97D /* libgstaudiotestsrc.a in Frameworks */,
 				CEA45F26263519B5002FA97D /* libgstvideoconvert.a in Frameworks */,
 				CEA45F27263519B5002FA97D /* libgstaudioconvert.a in Frameworks */,
 				CE89CB102B8B1B6A006B2CC2 /* VisionKeyboardKit in Frameworks */,
-				8401865C2887AFDC0050AC51 /* SwiftTerm in Frameworks */,
 				CEA45F28263519B5002FA97D /* libgstvideoscale.a in Frameworks */,
 				CEA45F29263519B5002FA97D /* IQKeyboardManagerSwift in Frameworks */,
-				CEA45F2A263519B5002FA97D /* MetalKit.framework in Frameworks */,
 				84CF5DF3288E433F00D01721 /* SwiftUIVisualEffects in Frameworks */,
-				84818C0D2898A07F009EDB67 /* AVFAudio.framework in Frameworks */,
 				CED2971B2CE4263600F1E3EB /* soup-3.0.0.framework in Frameworks */,
 				CEA45F2B263519B5002FA97D /* libgstvolume.a in Frameworks */,
 				CEA45F2C263519B5002FA97D /* libgstcoreelements.a in Frameworks */,
@@ -1375,9 +1392,7 @@
 				CEA45F44263519B5002FA97D /* gstnet-1.0.0.framework in Frameworks */,
 				CEA45F45263519B5002FA97D /* gstbase-1.0.0.framework in Frameworks */,
 				CEA45F46263519B5002FA97D /* Logging in Frameworks */,
-				84A0A88C2A47D5D70038F329 /* QEMUKit in Frameworks */,
 				CEA45F47263519B5002FA97D /* phodav-3.0.0.framework in Frameworks */,
-				CEA45F49263519B5002FA97D /* SwiftUI.framework in Frameworks */,
 				CEA45F4A263519B5002FA97D /* gstcontroller-1.0.0.framework in Frameworks */,
 				CEA45F4B263519B5002FA97D /* gstaudio-1.0.0.framework in Frameworks */,
 				CEA45F4C263519B5002FA97D /* gpg-error.0.framework in Frameworks */,
@@ -1404,7 +1419,6 @@
 				CEA45F5E263519B5002FA97D /* ssl.1.1.framework in Frameworks */,
 				CEA45F5F263519B5002FA97D /* spice-server.1.framework in Frameworks */,
 				CEA45F60263519B5002FA97D /* pixman-1.0.framework in Frameworks */,
-				83993294272F685F0059355F /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1425,7 +1439,6 @@
 				CEF7F6312AEEDCC400E34952 /* libgstaudioconvert.a in Frameworks */,
 				CEF7F6322AEEDCC400E34952 /* libgstvideoscale.a in Frameworks */,
 				CEF7F6332AEEDCC400E34952 /* IQKeyboardManagerSwift in Frameworks */,
-				CEF7F6342AEEDCC400E34952 /* MetalKit.framework in Frameworks */,
 				CEF7F6352AEEDCC400E34952 /* libgstvolume.a in Frameworks */,
 				CEF7F6362AEEDCC400E34952 /* libgstcoreelements.a in Frameworks */,
 				CEF7F6372AEEDCC400E34952 /* libgstvideorate.a in Frameworks */,
@@ -1450,7 +1463,6 @@
 				CEF7F64C2AEEDCC400E34952 /* gthread-2.0.0.framework in Frameworks */,
 				CEF7F64D2AEEDCC400E34952 /* gstrtp-1.0.0.framework in Frameworks */,
 				CEF7F64E2AEEDCC400E34952 /* gstriff-1.0.0.framework in Frameworks */,
-				CEF7F6512AEEDCC400E34952 /* AVFAudio.framework in Frameworks */,
 				CEF7F6522AEEDCC400E34952 /* gstreamer-1.0.0.framework in Frameworks */,
 				CEF7F6532AEEDCC400E34952 /* json-glib-1.0.0.framework in Frameworks */,
 				CEF7F6542AEEDCC400E34952 /* ffi.7.framework in Frameworks */,
@@ -1460,7 +1472,6 @@
 				CEF7F6582AEEDCC400E34952 /* SwiftTerm in Frameworks */,
 				CED2971D2CE4263A00F1E3EB /* soup-3.0.0.framework in Frameworks */,
 				CEF7F65A2AEEDCC400E34952 /* phodav-3.0.0.framework in Frameworks */,
-				CEF7F65C2AEEDCC400E34952 /* SwiftUI.framework in Frameworks */,
 				CEF7F65D2AEEDCC400E34952 /* gstcontroller-1.0.0.framework in Frameworks */,
 				CEF7F65E2AEEDCC400E34952 /* gstaudio-1.0.0.framework in Frameworks */,
 				CEF7F65F2AEEDCC400E34952 /* gpg-error.0.framework in Frameworks */,
@@ -1493,6 +1504,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		732F0B022D35356900D518A8 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				732FFBAB2D3531AE00D518A8 /* Virtualization */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		73EDD4672CE754E600A581BE /* Platform */ = {
 			isa = PBXGroup;
 			children = (
@@ -1507,6 +1526,7 @@
 		73EDD68F2CE757C000A581BE /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				732F0EE72D35359500D518A8 /* Virtualization */,
 				73EDDA522CE75C3300A581BE /* Remote */,
 				73EDB7D92CE7276C00A581BE /* Scripting */,
 			);
@@ -1516,49 +1536,15 @@
 		CE2D63D622653C7300FC7E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				73EDDA692CE76BAF00A581BE /* phodav-2.0.0.framework */,
-				CED297132CE425CA00F1E3EB /* soup-3.0.0.framework */,
-				CE064C642A563F4A003C833D /* swtpm.0.framework */,
-				CE02C8A8294EE4EA006DFE48 /* qemu-loongarch64-softmmu.framework */,
-				CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */,
-				84C5068528CA5702007CE8FF /* Hypervisor.framework */,
-				84818C0B2898A07A009EDB67 /* AVFAudio.framework */,
-				84937EFE28960789003148F4 /* zstd.1.framework */,
-				848308D4278A1F2200E3E474 /* Virtualization.framework */,
-				8453DCB0278CE33E0037A0DA /* qemu-img.framework */,
+				736146C92D34DE3F00EA8778 /* glib-2.0.0.framework */,
+				73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */,
+				CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */,
 				CE5451A426AF5F0F008594E5 /* EGL.framework */,
 				CE5451A226AF5F0F008594E5 /* epoxy.0.framework */,
-				CE5451A326AF5F0F008594E5 /* GLESv2.framework */,
-				CE5451A126AF5F0F008594E5 /* virglrenderer.1.framework */,
-				CEA9058725FC69D100801E7C /* usbredirhost.1.framework */,
-				CEA9058825FC69D100801E7C /* usbredirparser.1.framework */,
-				CEA9053725F981E900801E7C /* usb-1.0.0.framework */,
-				CE0E9B86252FD06B0026E02B /* SwiftUI.framework */,
-				CE059DC0243BD67100338317 /* phodav-3.0.0.framework */,
-				CE66450C2269313200B0849A /* MetalKit.framework */,
-				CE9D195D2265425900355E14 /* libgstadder.a */,
-				CE9D19612265425900355E14 /* libgstapp.a */,
-				CE9D19552265425900355E14 /* libgstaudioconvert.a */,
-				CE9D195F2265425900355E14 /* libgstaudiorate.a */,
-				CE9D195B2265425900355E14 /* libgstaudioresample.a */,
-				CE9D19532265425900355E14 /* libgstaudiotestsrc.a */,
-				CE9D19522265425900355E14 /* libgstautodetect.a */,
-				CE9D19582265425900355E14 /* libgstcoreelements.a */,
-				CE9D19622265425A00355E14 /* libgstgio.a */,
-				CE9D195A2265425900355E14 /* libgstjpeg.a */,
-				CE9D19652265425A00355E14 /* libgstosxaudio.a */,
-				CE9D195C2265425900355E14 /* libgstplayback.a */,
-				CE9D19632265425A00355E14 /* libgsttypefindfunctions.a */,
-				CE9D19542265425900355E14 /* libgstvideoconvert.a */,
-				CE9D19602265425900355E14 /* libgstvideofilter.a */,
-				CE9D19592265425900355E14 /* libgstvideorate.a */,
-				CE9D19562265425900355E14 /* libgstvideoscale.a */,
-				CE9D19642265425A00355E14 /* libgstvideotestsrc.a */,
-				CE9D19572265425900355E14 /* libgstvolume.a */,
-				CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */,
 				CE2D63E322653C7400FC7E63 /* ffi.7.framework */,
 				CE2D63F322653C7400FC7E63 /* gcrypt.20.framework */,
 				CE2D63F822653C7400FC7E63 /* gio-2.0.0.framework */,
+				CE5451A326AF5F0F008594E5 /* GLESv2.framework */,
 				CE2D640422653C7500FC7E63 /* glib-2.0.0.framework */,
 				CE2D63D822653C7300FC7E63 /* gmodule-2.0.0.framework */,
 				CE2D63F522653C7400FC7E63 /* gobject-2.0.0.framework */,
@@ -1580,11 +1566,32 @@
 				CE2D63F622653C7400FC7E63 /* gsttag-1.0.0.framework */,
 				CE2D63F922653C7400FC7E63 /* gstvideo-1.0.0.framework */,
 				CE2D63DC22653C7300FC7E63 /* gthread-2.0.0.framework */,
+				84C5068528CA5702007CE8FF /* Hypervisor.framework */,
 				CE2D641522653C7500FC7E63 /* iconv.2.framework */,
 				CE2D63DA22653C7300FC7E63 /* intl.8.framework */,
 				CE2D63D922653C7300FC7E63 /* jpeg.62.framework */,
 				CE2D63E222653C7400FC7E63 /* json-glib-1.0.0.framework */,
+				CE9D195D2265425900355E14 /* libgstadder.a */,
+				CE9D19612265425900355E14 /* libgstapp.a */,
+				CE9D19552265425900355E14 /* libgstaudioconvert.a */,
+				CE9D195F2265425900355E14 /* libgstaudiorate.a */,
+				CE9D195B2265425900355E14 /* libgstaudioresample.a */,
+				CE9D19532265425900355E14 /* libgstaudiotestsrc.a */,
+				CE9D19522265425900355E14 /* libgstautodetect.a */,
+				CE9D19582265425900355E14 /* libgstcoreelements.a */,
+				CE9D19622265425A00355E14 /* libgstgio.a */,
+				CE9D195A2265425900355E14 /* libgstjpeg.a */,
+				CE9D19652265425A00355E14 /* libgstosxaudio.a */,
+				CE9D195C2265425900355E14 /* libgstplayback.a */,
+				CE9D19632265425A00355E14 /* libgsttypefindfunctions.a */,
+				CE9D19542265425900355E14 /* libgstvideoconvert.a */,
+				CE9D19602265425900355E14 /* libgstvideofilter.a */,
+				CE9D19592265425900355E14 /* libgstvideorate.a */,
+				CE9D19562265425900355E14 /* libgstvideoscale.a */,
+				CE9D19642265425A00355E14 /* libgstvideotestsrc.a */,
+				CE9D19572265425900355E14 /* libgstvolume.a */,
 				CE2D640322653C7500FC7E63 /* opus.0.framework */,
+				CE059DC0243BD67100338317 /* phodav-3.0.0.framework */,
 				CE2D641922653C7600FC7E63 /* pixman-1.0.framework */,
 				CE2D640522653C7500FC7E63 /* png16.16.framework */,
 				CE2D63FD22653C7500FC7E63 /* qemu-aarch64-softmmu.framework */,
@@ -1593,6 +1600,8 @@
 				CE2D63E622653C7400FC7E63 /* qemu-cris-softmmu.framework */,
 				CE2D63F222653C7400FC7E63 /* qemu-hppa-softmmu.framework */,
 				CE2D63D722653C7300FC7E63 /* qemu-i386-softmmu.framework */,
+				8453DCB0278CE33E0037A0DA /* qemu-img.framework */,
+				CE02C8A8294EE4EA006DFE48 /* qemu-loongarch64-softmmu.framework */,
 				CE2D63EB22653C7400FC7E63 /* qemu-m68k-softmmu.framework */,
 				CE2D63E422653C7400FC7E63 /* qemu-microblaze-softmmu.framework */,
 				CE2D63F022653C7400FC7E63 /* qemu-microblazeel-softmmu.framework */,
@@ -1614,9 +1623,18 @@
 				CE2D640022653C7500FC7E63 /* qemu-x86_64-softmmu.framework */,
 				CE2D63ED22653C7400FC7E63 /* qemu-xtensa-softmmu.framework */,
 				CE2D641222653C7500FC7E63 /* qemu-xtensaeb-softmmu.framework */,
+				CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */,
+				CED297132CE425CA00F1E3EB /* soup-3.0.0.framework */,
 				CE2D63FE22653C7500FC7E63 /* spice-client-glib-2.0.8.framework */,
 				CE2D641822653C7500FC7E63 /* spice-server.1.framework */,
 				CE2D641722653C7500FC7E63 /* ssl.1.1.framework */,
+				CE064C642A563F4A003C833D /* swtpm.0.framework */,
+				CEA9053725F981E900801E7C /* usb-1.0.0.framework */,
+				CEA9058725FC69D100801E7C /* usbredirhost.1.framework */,
+				CEA9058825FC69D100801E7C /* usbredirparser.1.framework */,
+				CE5451A126AF5F0F008594E5 /* virglrenderer.1.framework */,
+				848308D4278A1F2200E3E474 /* Virtualization.framework */,
+				84937EFE28960789003148F4 /* zstd.1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1624,6 +1642,7 @@
 		CE550BC0225947990063E575 = {
 			isa = PBXGroup;
 			children = (
+				73EA79222CF4D752007CD75B /* CoreUTM */,
 				73EDD68F2CE757C000A581BE /* Features */,
 				73EDD4672CE754E600A581BE /* Platform */,
 				CE50A41F2637BB200050430F /* Build.xcconfig */,
@@ -1634,6 +1653,7 @@
 				73EDB7EC2CE7277000A581BE /* utmctl */,
 				CE550BCA225947990063E575 /* Products */,
 				CE2D63D622653C7300FC7E63 /* Frameworks */,
+				732F0B022D35356900D518A8 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -1664,6 +1684,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		73E09B682D1ECC3400C40D91 /* sysroot */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 73E09B6B2D1ECC3400C40D91 /* Build configuration list for PBXLegacyTarget "sysroot" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/sh;
+			dependencies = (
+			);
+			name = sysroot;
+			packageProductDependencies = (
+			);
+			passBuildSettingsInEnvironment = 1;
+			productName = sysroot;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		8401FD61269BE9C500265F0D /* QEMULauncher */ = {
@@ -1743,6 +1781,7 @@
 				CE9B15372B11A4A7003A32DD /* SwiftConnect */,
 				CE89CB0D2B8B1B5A006B2CC2 /* VisionKeyboardKit */,
 				CE231D532BE03630006D6DC3 /* SwiftCopyfile */,
+				732FFB992D352ED100D518A8 /* CoreUTM */,
 			);
 			productName = UTM;
 			productReference = CE2D93BE24AD46670059923A /* UTM.app */;
@@ -1766,6 +1805,8 @@
 				CEBDA1E424D8BDDB0010B5EC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				732F0EE72D35359500D518A8 /* Virtualization */,
+				732FFBAB2D3531AE00D518A8 /* Virtualization */,
 				73EDB7D92CE7276C00A581BE /* Scripting */,
 				73EDD6E62CE75C0200A581BE /* macOS */,
 				73EDD86B2CE75C1800A581BE /* Shared */,
@@ -1883,6 +1924,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				732F0EE72D35359500D518A8 /* Virtualization */,
 				73EDD6AD2CE75BF300A581BE /* visionOS */,
 				73EDD75D2CE75C0E00A581BE /* iOS */,
 				73EDD86B2CE75C1800A581BE /* Shared */,
@@ -1913,9 +1955,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1620;
 				ORGANIZATIONNAME = osy;
 				TargetAttributes = {
+					73E09B682D1ECC3400C40D91 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					8401FD61269BE9C500265F0D = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -1977,7 +2022,7 @@
 				73EDD68C2CE7576D00A581BE /* XCLocalSwiftPackageReference "../CoreUTM" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CE550BCA225947990063E575 /* Products */;
+			productRefGroup = CE550BC0225947990063E575;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1989,6 +2034,7 @@
 				8401FD61269BE9C500265F0D /* QEMULauncher */,
 				CE9A352C26533A51005077CF /* JailbreakInterposer */,
 				84E3A8EF293DB37E0024A740 /* utmctl */,
+				73E09B682D1ECC3400C40D91 /* sysroot */,
 			);
 		};
 /* End PBXProject section */
@@ -2220,6 +2266,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		73E09B692D1ECC3400C40D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ULLNL4MHTP;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73E09B6A2D1ECC3400C40D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ULLNL4MHTP;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8401FD6F269BE9C600265F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2307,11 +2388,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "$(IOS_CODE_SIGN_ENTITLEMENTS)";
 				CODE_SIGN_IDENTITY = "$(CODE_SIGN_IDENTITY_IOS:default=Apple Development)";
-				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_JIT=1",
@@ -2333,9 +2411,8 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WITH_JIT WITH_SOLO_VM WITH_USB WITH_LOCATION_BACKGROUND $(inherited)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Services/Swift-Bridging-Header.h";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
@@ -2344,11 +2421,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "$(IOS_CODE_SIGN_ENTITLEMENTS)";
 				CODE_SIGN_IDENTITY = "$(CODE_SIGN_IDENTITY_IOS:default=Apple Development)";
-				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_JIT=1",
@@ -2370,8 +2444,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WITH_JIT WITH_SOLO_VM WITH_USB WITH_LOCATION_BACKGROUND $(inherited)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Services/Swift-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
@@ -2387,7 +2460,8 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/sysroot-macos-arm64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-macOS-arm64_x86_64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-macOS-arm64/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_JIT=1",
@@ -2399,6 +2473,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sysroot-macOS-arm64/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -2418,7 +2496,8 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/sysroot-macos-arm64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-macOS-arm64_x86_64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-macOS-arm64/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_JIT=1",
@@ -2430,6 +2509,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sysroot-macOS-arm64/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -2784,16 +2867,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Remote";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor-Remote";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "$(IOS_CODE_SIGN_ENTITLEMENTS)";
 				CODE_SIGN_IDENTITY = "$(CODE_SIGN_IDENTITY_IOS:default=Apple Development)";
-				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_REMOTE=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Platform/iOS/Info-Remote.plist";
+				INFOPLIST_FILE = Features/Remote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2808,8 +2889,6 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WITH_REMOTE $(inherited)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Services/Swift-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
@@ -2819,16 +2898,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Remote";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor-Remote";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "$(IOS_CODE_SIGN_ENTITLEMENTS)";
 				CODE_SIGN_IDENTITY = "$(CODE_SIGN_IDENTITY_IOS:default=Apple Development)";
-				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_REMOTE=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Platform/iOS/Info-Remote.plist";
+				INFOPLIST_FILE = Features/Remote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2843,7 +2920,6 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "WITH_REMOTE $(inherited)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Services/Swift-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
@@ -2851,6 +2927,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		73E09B6B2D1ECC3400C40D91 /* Build configuration list for PBXLegacyTarget "sysroot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E09B692D1ECC3400C40D91 /* Debug */,
+				73E09B6A2D1ECC3400C40D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8401FD6E269BE9C600265F0D /* Build configuration list for PBXNativeTarget "QEMULauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3121,6 +3206,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		732FFB992D352ED100D518A8 /* CoreUTM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUTM;
+		};
 		73EDCDC42CE750CC00A581BE /* CoreUTM */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CoreUTM;
@@ -3213,10 +3302,6 @@
 		B329049B270FE136002707AC /* AltKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B329049A270FE136002707AC /* XCRemoteSwiftPackageReference "AltKit" */;
-			productName = AltKit;
-		};
-		B3DDF57126E9BBA300CE47F0 /* AltKit */ = {
-			isa = XCSwiftPackageProductDependency;
 			productName = AltKit;
 		};
 		CE020BA624AEDEF000B44AB6 /* Logging */ = {

@@ -16,7 +16,6 @@
 
 import Foundation
 
-@available(iOS, unavailable, message: "Apple Virtualization not available on iOS")
 final class UTMLegacyAppleConfiguration: Codable {
     private let currentVersion = 3
     

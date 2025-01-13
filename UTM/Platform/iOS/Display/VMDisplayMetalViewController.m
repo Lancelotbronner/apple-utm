@@ -26,7 +26,8 @@
 #import "VMKeyboardView.h"
 #import "UTMLogging.h"
 #import "CSDisplay.h"
-#import "UTM-Swift.h"
+
+@import CoreUTM;
 @import CocoaSpiceRenderer;
 
 static const NSInteger kResizeDebounceSecs = 1;

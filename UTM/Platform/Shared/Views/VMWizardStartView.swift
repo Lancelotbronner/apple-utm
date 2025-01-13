@@ -21,23 +21,23 @@ import Virtualization
 
 struct VMWizardStartView: View {
     @ObservedObject var wizardState: VMWizardState
-    
+
     var isVirtualizationSupported: Bool {
-        #if os(macOS)
+#if canImport(Virtualization)
         VZVirtualMachine.isSupported && !processIsTranslated()
-        #else
+#else
         UTMCapabilities.current.contains(.hasHypervisorSupport)
-        #endif
+#endif
     }
-    
+
     var isEmulationSupported: Bool {
-        #if !WITH_JIT
+#if !WITH_JIT
         true
-        #else
+#else
         UTM.jitAvailable
-        #endif
+#endif
     }
-    
+
     var body: some View {
         VMWizardContent("Start") {
             Section {
@@ -58,18 +58,18 @@ struct VMWizardStartView: View {
                     }
                     .padding()
                 }
-                .buttonStyle(.inList)
-                .disabled(!isVirtualizationSupported)
-                #if os(iOS) || os(visionOS)
+                    .buttonStyle(.inList)
+                    .disabled(!isVirtualizationSupported)
+#if os(iOS) || os(visionOS)
                 if #available(iOS 15, *) {
                     virtButton
                 } else {
                     virtButton
                         .opacity(isVirtualizationSupported ? 1 : 0.5)
                 }
-                #else
+#else
                 virtButton
-                #endif
+#endif
 
                 Button {
                     wizardState.useVirtualization = false
@@ -89,7 +89,7 @@ struct VMWizardStartView: View {
                     .padding()
                 }
                 .buttonStyle(.inList)
-                
+
             } header: {
                 Text("Custom")
             } footer: {
@@ -111,9 +111,9 @@ struct VMWizardStartView: View {
                         Image(systemName: "doc")
                     }
                 }
-                #if os(macOS)
+#if os(macOS)
                 .buttonStyle(.link)
-                #endif
+#endif
                 Link(destination: URL(string: "https://mac.getutm.app/gallery/")!) {
                     Label {
                         Text("Download prebuilt from UTM Gallery…")
@@ -127,7 +127,7 @@ struct VMWizardStartView: View {
 
         }
     }
-    
+
     private func processIsTranslated() -> Bool {
         let key = "sysctl.proc_translated"
         var ret = Int32(0)
@@ -143,7 +143,7 @@ struct VMWizardStartView: View {
 
 struct VMWizardStartView_Previews: PreviewProvider {
     @StateObject static var wizardState = VMWizardState()
-    
+
     static var previews: some View {
         VMWizardStartView(wizardState: wizardState)
     }

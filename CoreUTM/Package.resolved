@@ -1,0 +1,24 @@
+{
+  "originHash" : "0eb1be8f29595057df02d95e6b83aec37226370920a2c8bc8c915cb1cc6a2a43",
+  "pins" : [
+    {
+      "identity" : "cocoaspice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/utmapp/CocoaSpice.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bbcc6371874fee17ac620176b9680393fc9a18ac"
+      }
+    },
+    {
+      "identity" : "qemukit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/utmapp/QEMUKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "74059d2d8d10462523b40828586fe6ecc06d2df2"
+      }
+    }
+  ],
+  "version" : 3
+}

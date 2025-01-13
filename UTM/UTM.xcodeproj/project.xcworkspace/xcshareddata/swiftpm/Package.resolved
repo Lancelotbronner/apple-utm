@@ -1,5 +1,5 @@
 {
-  "originHash" : "c9482d61e795c27df5a7c772a0750aefc9164d93bd871138a9b229c9f08c6fab",
+  "originHash" : "7e73da06025f4d82ceac4885adaf982a0cba81f9439bef3388f5a331457cd30d",
   "pins" : [
     {
       "identity" : "altkit",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/utmapp/CocoaSpice.git",
       "state" : {
         "branch" : "main",
-        "revision" : "409f78bc17943980e5920c83dc210bfd62f77a1a"
+        "revision" : "bbcc6371874fee17ac620176b9680393fc9a18ac"
       }
     },
     {

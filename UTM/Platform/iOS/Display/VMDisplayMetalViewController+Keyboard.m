@@ -19,7 +19,8 @@
 #import "UTMLogging.h"
 #import "VMKeyboardView.h"
 #import "VMKeyboardButton.h"
-#import "UTM-Swift.h"
+
+@import CoreUTM;
 
 @implementation VMDisplayMetalViewController (Keyboard)
 

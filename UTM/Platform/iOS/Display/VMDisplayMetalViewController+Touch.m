@@ -23,9 +23,9 @@
 #import "VMCursor.h"
 #import "VMScroll.h"
 #import "CSDisplay.h"
-#import "UTMSpiceIO.h"
 #import "UTMLogging.h"
-#import "UTM-Swift.h"
+
+@import CoreUTM;
 
 const CGFloat kScrollSpeedReduction = 100.0f;
 const CGFloat kCursorResistance = 50.0f;

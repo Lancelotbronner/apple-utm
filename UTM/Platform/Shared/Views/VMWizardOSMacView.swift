@@ -15,7 +15,9 @@
 //
 
 import SwiftUI
+#if canImport(Virtualization)
 import Virtualization
+#endif
 
 @available(macOS 12, *)
 struct VMWizardOSMacView: View {
