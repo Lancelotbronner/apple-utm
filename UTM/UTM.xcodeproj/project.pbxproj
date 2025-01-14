@@ -9,7 +9,40 @@
 /* Begin PBXBuildFile section */
 		732F0B012D35356900D518A8 /* CoreUTM in Frameworks */ = {isa = PBXBuildFile; productRef = 732FFB992D352ED100D518A8 /* CoreUTM */; };
 		736146CA2D34DE3F00EA8778 /* glib-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736146C92D34DE3F00EA8778 /* glib-2.0.0.framework */; };
-		7387DB992D34F92700A690FC /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		738023862D368994000EF8B7 /* gobject-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 738023762D368993000EF8B7 /* gobject-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7380238E2D368994000EF8B7 /* gio-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7380237A2D368993000EF8B7 /* gio-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		738023902D368994000EF8B7 /* gstrtsp-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7380237B2D368993000EF8B7 /* gstrtsp-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		738023922D368995000EF8B7 /* gmodule-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7380237C2D368993000EF8B7 /* gmodule-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7380239E2D368995000EF8B7 /* girepository-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 738023822D368993000EF8B7 /* girepository-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		738023A12D368996000EF8B7 /* gstcheck-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023842D368994000EF8B7 /* gstcheck-1.0.0.framework */; };
+		738023A32D3689F4000EF8B7 /* gstriff-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023772D368993000EF8B7 /* gstriff-1.0.0.framework */; };
+		738023A42D3689F4000EF8B7 /* gettextlib-0.22.5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023792D368993000EF8B7 /* gettextlib-0.22.5.framework */; };
+		738023A62D3689F4000EF8B7 /* gettextpo.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7380237F2D368993000EF8B7 /* gettextpo.0.framework */; };
+		738023A92D3689F5000EF8B7 /* gettextsrc-0.22.5.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 738023782D368993000EF8B7 /* gettextsrc-0.22.5.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		738023AC2D3689F5000EF8B7 /* girepository-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023822D368993000EF8B7 /* girepository-2.0.0.framework */; };
+		73DC2B422D367EC8000595DA /* zstd.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC2B412D367EC8000595DA /* zstd.1.framework */; };
+		73DC2B432D367EC8000595DA /* zstd.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC2B412D367EC8000595DA /* zstd.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC36C12D368034000595DA /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36C02D368034000595DA /* slirp.0.framework */; };
+		73DC36C22D368034000595DA /* slirp.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36C02D368034000595DA /* slirp.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC36C72D368055000595DA /* virglrenderer.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36C42D368055000595DA /* virglrenderer.1.framework */; };
+		73DC36C82D368055000595DA /* virglrenderer.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36C42D368055000595DA /* virglrenderer.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC36C92D36807F000595DA /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36C02D368034000595DA /* slirp.0.framework */; };
+		73DC37292D368087000595DA /* qemu-img.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36D12D368080000595DA /* qemu-img.framework */; };
+		73DC372B2D368087000595DA /* EGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36D22D368080000595DA /* EGL.framework */; };
+		73DC37302D368088000595DA /* gettextpo.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36D42D368080000595DA /* gettextpo.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37392D368089000595DA /* asprintf.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36D92D368080000595DA /* asprintf.0.framework */; };
+		73DC373A2D368089000595DA /* asprintf.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36D92D368080000595DA /* asprintf.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37452D36808A000595DA /* swtpm.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36DF2D368081000595DA /* swtpm.0.framework */; };
+		73DC374D2D36808B000595DA /* gettextsrc-0.22.5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36E32D368081000595DA /* gettextsrc-0.22.5.framework */; };
+		73DC37502D36808B000595DA /* qemu-avr-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36E42D368081000595DA /* qemu-avr-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37762D36808F000595DA /* qemu-rx-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36F72D368082000595DA /* qemu-rx-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37782D36808F000595DA /* charset.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36F82D368082000595DA /* charset.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37972D368092000595DA /* textstyle.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC37082D368083000595DA /* textstyle.0.framework */; };
+		73DC37982D368092000595DA /* textstyle.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC37082D368083000595DA /* textstyle.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37AB2D368094000595DA /* turbojpeg.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC37122D368085000595DA /* turbojpeg.0.framework */; };
+		73DC37AC2D368094000595DA /* turbojpeg.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC37122D368085000595DA /* turbojpeg.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73DC37AF2D368094000595DA /* epoxy.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC37142D368086000595DA /* epoxy.0.framework */; };
+		73DC37BC2D368096000595DA /* gettextlib-0.22.5.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC371A2D368086000595DA /* gettextlib-0.22.5.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */; };
 		73EA90E02CF4D91E007CD75B /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA624AEDEF000B44AB6 /* Logging */; };
 		73EA90E12CF4D91E007CD75B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 83993291272F68550059355F /* ZIPFoundation */; };
@@ -51,13 +84,9 @@
 		CE03D08824D90F0700F76B84 /* gio-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F822653C7400FC7E63 /* gio-2.0.0.framework */; };
 		CE03D08A24D90F2900F76B84 /* intl.8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DA22653C7300FC7E63 /* intl.8.framework */; };
 		CE03D08B24D90F2900F76B84 /* jpeg.62.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63D922653C7300FC7E63 /* jpeg.62.framework */; };
-		CE03D08C24D9123E00F76B84 /* gio-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63F822653C7400FC7E63 /* gio-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D08D24D9123F00F76B84 /* glib-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640422653C7500FC7E63 /* glib-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D08E24D9124100F76B84 /* gmodule-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63D822653C7300FC7E63 /* gmodule-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D08F24D9124200F76B84 /* gobject-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63F522653C7400FC7E63 /* gobject-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D09024D9124800F76B84 /* intl.8.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63DA22653C7300FC7E63 /* intl.8.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D09124D9124900F76B84 /* jpeg.62.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63D922653C7300FC7E63 /* jpeg.62.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D0C424D913AA00F76B84 /* ffi.7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E322653C7400FC7E63 /* ffi.7.framework */; };
 		CE03D0C524D913AF00F76B84 /* ffi.7.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63E322653C7400FC7E63 /* ffi.7.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D0C624D913C600F76B84 /* opus.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640322653C7500FC7E63 /* opus.0.framework */; };
 		CE03D0C724D913E600F76B84 /* opus.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640322653C7500FC7E63 /* opus.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -75,7 +104,6 @@
 		CE0B6EC224AD677200FE012D /* libgstvideorate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19592265425900355E14 /* libgstvideorate.a */; };
 		CE0B6EC624AD677200FE012D /* gstfft-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640922653C7500FC7E63 /* gstfft-1.0.0.framework */; };
 		CE0B6EC924AD677200FE012D /* gstvideo-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F922653C7400FC7E63 /* gstvideo-1.0.0.framework */; };
-		CE0B6ECB24AD677200FE012D /* gstcheck-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641422653C7500FC7E63 /* gstcheck-1.0.0.framework */; };
 		CE0B6ECC24AD677200FE012D /* gstriff-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DE22653C7400FC7E63 /* gstriff-1.0.0.framework */; };
 		CE0B6ECD24AD677200FE012D /* gsttag-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F622653C7400FC7E63 /* gsttag-1.0.0.framework */; };
 		CE0B6ECF24AD677200FE012D /* gstrtp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DD22653C7400FC7E63 /* gstrtp-1.0.0.framework */; };
@@ -120,7 +148,6 @@
 		CE0B6F2424AD67A600FE012D /* gstreamer-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63E022653C7400FC7E63 /* gstreamer-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0B6F2524AD67A700FE012D /* gstriff-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63DE22653C7400FC7E63 /* gstriff-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0B6F2624AD67A900FE012D /* gstrtp-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63DD22653C7400FC7E63 /* gstrtp-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE0B6F2724AD67AA00FE012D /* gstrtsp-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640122653C7500FC7E63 /* gstrtsp-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0B6F2824AD67AC00FE012D /* gstsdp-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641622653C7500FC7E63 /* gstsdp-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0B6F2924AD67AD00FE012D /* gsttag-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63F622653C7400FC7E63 /* gsttag-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE0B6F2A24AD67AF00FE012D /* gstvideo-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63F922653C7400FC7E63 /* gstvideo-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -524,7 +551,6 @@
 		CEF83F262500901300557D15 /* qemu in Resources */ = {isa = PBXBuildFile; fileRef = CE9D18F72265410E00355E14 /* qemu */; };
 		CEF83F862500947D00557D15 /* gcrypt.20.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F322653C7400FC7E63 /* gcrypt.20.framework */; };
 		CEF83F872500948800557D15 /* gpg-error.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F122653C7400FC7E63 /* gpg-error.0.framework */; };
-		CEF83F882500949D00557D15 /* gthread-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DC22653C7300FC7E63 /* gthread-2.0.0.framework */; };
 		CEF83F89250094A400557D15 /* png16.16.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640522653C7500FC7E63 /* png16.16.framework */; };
 		CEF83F8A250094B200557D15 /* spice-server.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641822653C7500FC7E63 /* spice-server.1.framework */; };
 		CEF83F8B250094D700557D15 /* spice-server.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641822653C7500FC7E63 /* spice-server.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -593,61 +619,71 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				73DC37AC2D368094000595DA /* turbojpeg.0.framework in Embed Libraries */,
+				CE0DF1A025A83C1700A51894 /* qemu-mipsel-softmmu.framework in Embed Libraries */,
 				73EDE24B2CE770DF00A581BE /* ssl.1.1.framework in Embed Libraries */,
 				CE0B6F1F24AD679E00FE012D /* gstcontroller-1.0.0.framework in Embed Libraries */,
 				CEF83F8E250094EC00557D15 /* gpg-error.0.framework in Embed Libraries */,
 				CE0B6F1A24AD679500FE012D /* gstallocators-1.0.0.framework in Embed Libraries */,
 				CED297152CE425CB00F1E3EB /* soup-3.0.0.framework in Embed Libraries */,
-				CE03D08F24D9124200F76B84 /* gobject-2.0.0.framework in Embed Libraries */,
 				CE0B6F1D24AD679B00FE012D /* gstbase-1.0.0.framework in Embed Libraries */,
+				73DC373A2D368089000595DA /* asprintf.0.framework in Embed Libraries */,
 				CE0B6F2224AD67A200FE012D /* gstnet-1.0.0.framework in Embed Libraries */,
 				CE03D09124D9124900F76B84 /* jpeg.62.framework in Embed Libraries */,
+				738023862D368994000EF8B7 /* gobject-2.0.0.framework in Embed Libraries */,
 				CEA9059525FC6A3A00801E7C /* usbredirhost.1.framework in Embed Libraries */,
 				CEF83F8C250094E300557D15 /* png16.16.framework in Embed Libraries */,
 				CEF83F8F250094EE00557D15 /* gcrypt.20.framework in Embed Libraries */,
 				CE0B6F5424AD67FA00FE012D /* spice-client-glib-2.0.8.framework in Embed Libraries */,
 				CEF83F8B250094D700557D15 /* spice-server.1.framework in Embed Libraries */,
+				73DC37762D36808F000595DA /* qemu-rx-softmmu.framework in Embed Libraries */,
+				738023902D368994000EF8B7 /* gstrtsp-1.0.0.framework in Embed Libraries */,
 				CE0B6F1B24AD679700FE012D /* gstapp-1.0.0.framework in Embed Libraries */,
 				CE0B6F2924AD67AD00FE012D /* gsttag-1.0.0.framework in Embed Libraries */,
 				CE0B6F3124AD67C100FE012D /* phodav-3.0.0.framework in Embed Libraries */,
 				CE0B6F2624AD67A900FE012D /* gstrtp-1.0.0.framework in Embed Libraries */,
+				73DC37982D368092000595DA /* textstyle.0.framework in Embed Libraries */,
 				CE0B6F2524AD67A700FE012D /* gstriff-1.0.0.framework in Embed Libraries */,
 				CE0B6F2424AD67A600FE012D /* gstreamer-1.0.0.framework in Embed Libraries */,
 				CE0B6F2A24AD67AF00FE012D /* gstvideo-1.0.0.framework in Embed Libraries */,
 				CE0B6F2F24AD67BE00FE012D /* json-glib-1.0.0.framework in Embed Libraries */,
 				CE03D0C724D913E600F76B84 /* opus.0.framework in Embed Libraries */,
-				CE03D08C24D9123E00F76B84 /* gio-2.0.0.framework in Embed Libraries */,
 				CE0B6F2824AD67AC00FE012D /* gstsdp-1.0.0.framework in Embed Libraries */,
 				CE0B6F1C24AD679800FE012D /* gstaudio-1.0.0.framework in Embed Libraries */,
 				CE0B6F1E24AD679C00FE012D /* gstcheck-1.0.0.framework in Embed Libraries */,
 				CE03D08D24D9123F00F76B84 /* glib-2.0.0.framework in Embed Libraries */,
 				CEA9059625FC6A3B00801E7C /* usbredirparser.1.framework in Embed Libraries */,
-				CE0B6F2724AD67AA00FE012D /* gstrtsp-1.0.0.framework in Embed Libraries */,
 				CE03D0CF24D9A33000F76B84 /* iconv.2.framework in Embed Libraries */,
 				CE03D0CD24D9144500F76B84 /* crypto.1.1.framework in Embed Libraries */,
-				CE03D08E24D9124100F76B84 /* gmodule-2.0.0.framework in Embed Libraries */,
+				73DC37782D36808F000595DA /* charset.1.framework in Embed Libraries */,
 				CE03D0C524D913AF00F76B84 /* ffi.7.framework in Embed Libraries */,
 				CEF83F8D250094E700557D15 /* gthread-2.0.0.framework in Embed Libraries */,
 				CE064C662A563F4B003C833D /* swtpm.0.framework in Embed Libraries */,
 				CE03D09024D9124800F76B84 /* intl.8.framework in Embed Libraries */,
+				73DC36C22D368034000595DA /* slirp.0.framework in Embed Libraries */,
 				CE03D0C924D9140A00F76B84 /* pixman-1.0.framework in Embed Libraries */,
 				CE0B6F2024AD679F00FE012D /* gstfft-1.0.0.framework in Embed Libraries */,
 				CE0B6F2324AD67A400FE012D /* gstpbutils-1.0.0.framework in Embed Libraries */,
 				CE0DF19425A83C1700A51894 /* qemu-aarch64-softmmu.framework in Embed Libraries */,
 				CE0DF19525A83C1700A51894 /* qemu-alpha-softmmu.framework in Embed Libraries */,
+				73DC37302D368088000595DA /* gettextpo.0.framework in Embed Libraries */,
+				738023922D368995000EF8B7 /* gmodule-2.0.0.framework in Embed Libraries */,
 				CE0DF19625A83C1700A51894 /* qemu-arm-softmmu.framework in Embed Libraries */,
 				CE0DF19725A83C1700A51894 /* qemu-cris-softmmu.framework in Embed Libraries */,
 				CE0DF19825A83C1700A51894 /* qemu-hppa-softmmu.framework in Embed Libraries */,
 				CEA9054225F982C400801E7C /* usb-1.0.0.framework in Embed Libraries */,
 				CE0DF19925A83C1700A51894 /* qemu-i386-softmmu.framework in Embed Libraries */,
+				7380239E2D368995000EF8B7 /* girepository-2.0.0.framework in Embed Libraries */,
 				CE0DF19A25A83C1700A51894 /* qemu-m68k-softmmu.framework in Embed Libraries */,
+				73DC2B432D367EC8000595DA /* zstd.1.framework in Embed Libraries */,
 				CE0DF19B25A83C1700A51894 /* qemu-microblaze-softmmu.framework in Embed Libraries */,
 				CE0DF19C25A83C1700A51894 /* qemu-microblazeel-softmmu.framework in Embed Libraries */,
 				CE0DF19D25A83C1700A51894 /* qemu-mips-softmmu.framework in Embed Libraries */,
 				CE0DF19E25A83C1700A51894 /* qemu-mips64-softmmu.framework in Embed Libraries */,
 				CE0DF19F25A83C1700A51894 /* qemu-mips64el-softmmu.framework in Embed Libraries */,
-				CE0DF1A025A83C1700A51894 /* qemu-mipsel-softmmu.framework in Embed Libraries */,
+				73DC37502D36808B000595DA /* qemu-avr-softmmu.framework in Embed Libraries */,
 				CE0DF1A325A83C1700A51894 /* qemu-or1k-softmmu.framework in Embed Libraries */,
+				7380238E2D368994000EF8B7 /* gio-2.0.0.framework in Embed Libraries */,
 				CE0DF1A425A83C1700A51894 /* qemu-ppc-softmmu.framework in Embed Libraries */,
 				CE0DF1A525A83C1700A51894 /* qemu-ppc64-softmmu.framework in Embed Libraries */,
 				CE0DF1A625A83C1700A51894 /* qemu-riscv32-softmmu.framework in Embed Libraries */,
@@ -660,12 +696,15 @@
 				CE0DF1AC25A83C1700A51894 /* qemu-sparc64-softmmu.framework in Embed Libraries */,
 				CE0DF1AD25A83C1700A51894 /* qemu-tricore-softmmu.framework in Embed Libraries */,
 				CE0DF1AE25A83C1700A51894 /* qemu-x86_64-softmmu.framework in Embed Libraries */,
+				738023A92D3689F5000EF8B7 /* gettextsrc-0.22.5.framework in Embed Libraries */,
 				CE0DF1AF25A83C1700A51894 /* qemu-xtensa-softmmu.framework in Embed Libraries */,
 				CE0DF1B025A83C1700A51894 /* qemu-xtensaeb-softmmu.framework in Embed Libraries */,
 				CEF78EE926B99F530022CAF4 /* EGL.framework in Embed Libraries */,
 				CEF78EEA26B99F530022CAF4 /* epoxy.0.framework in Embed Libraries */,
 				CEF78EEB26B99F530022CAF4 /* GLESv2.framework in Embed Libraries */,
 				8453DCB2278CE3D10037A0DA /* qemu-img.framework in Embed Libraries */,
+				73DC36C82D368055000595DA /* virglrenderer.1.framework in Embed Libraries */,
+				73DC37BC2D368096000595DA /* gettextlib-0.22.5.framework in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -892,6 +931,109 @@
 
 /* Begin PBXFileReference section */
 		736146C92D34DE3F00EA8778 /* glib-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "glib-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/glib-2.0.0.framework"; sourceTree = "<group>"; };
+		738023762D368993000EF8B7 /* gobject-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gobject-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gobject-2.0.0.framework"; sourceTree = "<group>"; };
+		738023772D368993000EF8B7 /* gstriff-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstriff-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstriff-1.0.0.framework"; sourceTree = "<group>"; };
+		738023782D368993000EF8B7 /* gettextsrc-0.22.5.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextsrc-0.22.5.framework"; path = "$(SYSROOT_DIR)/Frameworks/gettextsrc-0.22.5.framework"; sourceTree = "<group>"; };
+		738023792D368993000EF8B7 /* gettextlib-0.22.5.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextlib-0.22.5.framework"; path = "$(SYSROOT_DIR)/Frameworks/gettextlib-0.22.5.framework"; sourceTree = "<group>"; };
+		7380237A2D368993000EF8B7 /* gio-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gio-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gio-2.0.0.framework"; sourceTree = "<group>"; };
+		7380237B2D368993000EF8B7 /* gstrtsp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtsp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstrtsp-1.0.0.framework"; sourceTree = "<group>"; };
+		7380237C2D368993000EF8B7 /* gmodule-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gmodule-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gmodule-2.0.0.framework"; sourceTree = "<group>"; };
+		7380237D2D368993000EF8B7 /* gstrtp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstrtp-1.0.0.framework"; sourceTree = "<group>"; };
+		7380237E2D368993000EF8B7 /* gstsdp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstsdp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstsdp-1.0.0.framework"; sourceTree = "<group>"; };
+		7380237F2D368993000EF8B7 /* gettextpo.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gettextpo.0.framework; path = "$(SYSROOT_DIR)/Frameworks/gettextpo.0.framework"; sourceTree = "<group>"; };
+		738023802D368993000EF8B7 /* gstfft-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstfft-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstfft-1.0.0.framework"; sourceTree = "<group>"; };
+		738023812D368993000EF8B7 /* gstcontroller-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcontroller-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstcontroller-1.0.0.framework"; sourceTree = "<group>"; };
+		738023822D368993000EF8B7 /* girepository-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "girepository-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/girepository-2.0.0.framework"; sourceTree = "<group>"; };
+		738023832D368994000EF8B7 /* gstapp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstapp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstapp-1.0.0.framework"; sourceTree = "<group>"; };
+		738023842D368994000EF8B7 /* gstcheck-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcheck-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstcheck-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC2B412D367EC8000595DA /* zstd.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = zstd.1.framework; path = "$(SYSROOT_DIR)/Frameworks/zstd.1.framework"; sourceTree = "<group>"; };
+		73DC36BD2D368005000595DA /* slirp.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = slirp.0.framework; path = "sysroot-ios_simulator-arm64/Frameworks/slirp.0.framework"; sourceTree = "<group>"; };
+		73DC36C02D368034000595DA /* slirp.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = slirp.0.framework; path = "$(SYSROOT_DIR)/Frameworks/slirp.0.framework"; sourceTree = "<group>"; };
+		73DC36C32D368055000595DA /* zstd.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = zstd.1.framework; path = "$(SYSROOT_DIR)/Frameworks/zstd.1.framework"; sourceTree = "<group>"; };
+		73DC36C42D368055000595DA /* virglrenderer.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = virglrenderer.1.framework; path = "$(SYSROOT_DIR)/Frameworks/virglrenderer.1.framework"; sourceTree = "<group>"; };
+		73DC36CC2D36807F000595DA /* iconv.2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iconv.2.framework; path = "$(SYSROOT_DIR)/Frameworks/iconv.2.framework"; sourceTree = "<group>"; };
+		73DC36CD2D36807F000595DA /* gstaudio-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstaudio-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstaudio-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36CE2D36807F000595DA /* qemu-mips64el-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mips64el-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-mips64el-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36CF2D36807F000595DA /* qemu-x86_64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-x86_64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-x86_64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36D02D368080000595DA /* gthread-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gthread-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gthread-2.0.0.framework"; sourceTree = "<group>"; };
+		73DC36D12D368080000595DA /* qemu-img.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-img.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-img.framework"; sourceTree = "<group>"; };
+		73DC36D22D368080000595DA /* EGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EGL.framework; path = "$(SYSROOT_DIR)/Frameworks/EGL.framework"; sourceTree = "<group>"; };
+		73DC36D32D368080000595DA /* gstsdp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstsdp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstsdp-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36D42D368080000595DA /* gettextpo.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gettextpo.0.framework; path = "$(SYSROOT_DIR)/Frameworks/gettextpo.0.framework"; sourceTree = "<group>"; };
+		73DC36D52D368080000595DA /* qemu-arm-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-arm-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-arm-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36D62D368080000595DA /* gstnet-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstnet-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstnet-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36D72D368080000595DA /* gmodule-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gmodule-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gmodule-2.0.0.framework"; sourceTree = "<group>"; };
+		73DC36D82D368080000595DA /* gstcontroller-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcontroller-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstcontroller-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36D92D368080000595DA /* asprintf.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = asprintf.0.framework; path = "$(SYSROOT_DIR)/Frameworks/asprintf.0.framework"; sourceTree = "<group>"; };
+		73DC36DA2D368080000595DA /* qemu-i386-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-i386-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-i386-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36DB2D368080000595DA /* qemu-tricore-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-tricore-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-tricore-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36DC2D368080000595DA /* phodav-3.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "phodav-3.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/phodav-3.0.0.framework"; sourceTree = "<group>"; };
+		73DC36DD2D368080000595DA /* gstcheck-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcheck-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstcheck-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36DE2D368080000595DA /* qemu-ppc64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-ppc64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-ppc64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36DF2D368081000595DA /* swtpm.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swtpm.0.framework; path = "$(SYSROOT_DIR)/Frameworks/swtpm.0.framework"; sourceTree = "<group>"; };
+		73DC36E02D368081000595DA /* gstriff-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstriff-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstriff-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36E12D368081000595DA /* qemu-sparc-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sparc-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-sparc-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36E22D368081000595DA /* json-glib-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "json-glib-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/json-glib-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36E32D368081000595DA /* gettextsrc-0.22.5.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextsrc-0.22.5.framework"; path = "$(SYSROOT_DIR)/Frameworks/gettextsrc-0.22.5.framework"; sourceTree = "<group>"; };
+		73DC36E42D368081000595DA /* qemu-avr-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-avr-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-avr-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36E52D368081000595DA /* qemu-mips-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mips-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-mips-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36E62D368081000595DA /* qemu-riscv64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-riscv64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-riscv64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36E72D368081000595DA /* qemu-ppc-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-ppc-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-ppc-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36E82D368081000595DA /* qemu-cris-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-cris-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-cris-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36E92D368081000595DA /* qemu-xtensaeb-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-xtensaeb-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-xtensaeb-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36EA2D368081000595DA /* qemu-hppa-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-hppa-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-hppa-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36EB2D368081000595DA /* GLESv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLESv2.framework; path = "$(SYSROOT_DIR)/Frameworks/GLESv2.framework"; sourceTree = "<group>"; };
+		73DC36EC2D368081000595DA /* gio-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gio-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gio-2.0.0.framework"; sourceTree = "<group>"; };
+		73DC36ED2D368081000595DA /* usbredirparser.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirparser.1.framework; path = "$(SYSROOT_DIR)/Frameworks/usbredirparser.1.framework"; sourceTree = "<group>"; };
+		73DC36EE2D368081000595DA /* gstreamer-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstreamer-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstreamer-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36EF2D368082000595DA /* qemu-aarch64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-aarch64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-aarch64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36F02D368082000595DA /* opus.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opus.0.framework; path = "$(SYSROOT_DIR)/Frameworks/opus.0.framework"; sourceTree = "<group>"; };
+		73DC36F12D368082000595DA /* qemu-mipsel-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mipsel-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-mipsel-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36F22D368082000595DA /* glib-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "glib-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/glib-2.0.0.framework"; sourceTree = "<group>"; };
+		73DC36F32D368082000595DA /* gstrtsp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtsp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstrtsp-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36F42D368082000595DA /* qemu-alpha-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-alpha-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-alpha-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36F52D368082000595DA /* qemu-loongarch64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-loongarch64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-loongarch64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36F62D368082000595DA /* qemu-or1k-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-or1k-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-or1k-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36F72D368082000595DA /* qemu-rx-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-rx-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-rx-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36F82D368082000595DA /* charset.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = charset.1.framework; path = "$(SYSROOT_DIR)/Frameworks/charset.1.framework"; sourceTree = "<group>"; };
+		73DC36F92D368082000595DA /* gpg-error.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gpg-error.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gpg-error.0.framework"; sourceTree = "<group>"; };
+		73DC36FA2D368082000595DA /* qemu-mips64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-mips64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-mips64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC36FB2D368082000595DA /* gobject-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gobject-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gobject-2.0.0.framework"; sourceTree = "<group>"; };
+		73DC36FC2D368082000595DA /* spice-client-glib-2.0.8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "spice-client-glib-2.0.8.framework"; path = "$(SYSROOT_DIR)/Frameworks/spice-client-glib-2.0.8.framework"; sourceTree = "<group>"; };
+		73DC36FD2D368082000595DA /* girepository-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "girepository-2.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/girepository-2.0.0.framework"; sourceTree = "<group>"; };
+		73DC36FE2D368082000595DA /* usb-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "usb-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/usb-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC36FF2D368083000595DA /* usbredirhost.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirhost.1.framework; path = "$(SYSROOT_DIR)/Frameworks/usbredirhost.1.framework"; sourceTree = "<group>"; };
+		73DC37002D368083000595DA /* crypto.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = crypto.1.1.framework; path = "$(SYSROOT_DIR)/Frameworks/crypto.1.1.framework"; sourceTree = "<group>"; };
+		73DC37012D368083000595DA /* gstbase-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstbase-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstbase-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC37022D368083000595DA /* ffi.7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ffi.7.framework; path = "$(SYSROOT_DIR)/Frameworks/ffi.7.framework"; sourceTree = "<group>"; };
+		73DC37032D368083000595DA /* jpeg.62.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jpeg.62.framework; path = "$(SYSROOT_DIR)/Frameworks/jpeg.62.framework"; sourceTree = "<group>"; };
+		73DC37042D368083000595DA /* intl.8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = intl.8.framework; path = "$(SYSROOT_DIR)/Frameworks/intl.8.framework"; sourceTree = "<group>"; };
+		73DC37052D368083000595DA /* png16.16.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png16.16.framework; path = "$(SYSROOT_DIR)/Frameworks/png16.16.framework"; sourceTree = "<group>"; };
+		73DC37062D368083000595DA /* qemu-microblazeel-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-microblazeel-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-microblazeel-softmmu.framework"; sourceTree = "<group>"; };
+		73DC37072D368083000595DA /* soup-3.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "soup-3.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/soup-3.0.0.framework"; sourceTree = "<group>"; };
+		73DC37082D368083000595DA /* textstyle.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = textstyle.0.framework; path = "$(SYSROOT_DIR)/Frameworks/textstyle.0.framework"; sourceTree = "<group>"; };
+		73DC37092D368083000595DA /* pixman-1.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "pixman-1.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/pixman-1.0.framework"; sourceTree = "<group>"; };
+		73DC370A2D368083000595DA /* gstrtp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstrtp-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC370B2D368084000595DA /* gsttag-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gsttag-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gsttag-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC370C2D368084000595DA /* gcrypt.20.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gcrypt.20.framework; path = "$(SYSROOT_DIR)/Frameworks/gcrypt.20.framework"; sourceTree = "<group>"; };
+		73DC370D2D368085000595DA /* gstvideo-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstvideo-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstvideo-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC370E2D368085000595DA /* qemu-sh4-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sh4-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-sh4-softmmu.framework"; sourceTree = "<group>"; };
+		73DC370F2D368085000595DA /* gstapp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstapp-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstapp-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC37102D368085000595DA /* qemu-sparc64-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sparc64-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-sparc64-softmmu.framework"; sourceTree = "<group>"; };
+		73DC37112D368085000595DA /* gstfft-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstfft-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstfft-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC37122D368085000595DA /* turbojpeg.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = turbojpeg.0.framework; path = "$(SYSROOT_DIR)/Frameworks/turbojpeg.0.framework"; sourceTree = "<group>"; };
+		73DC37132D368086000595DA /* qemu-sh4eb-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-sh4eb-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-sh4eb-softmmu.framework"; sourceTree = "<group>"; };
+		73DC37142D368086000595DA /* epoxy.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = epoxy.0.framework; path = "$(SYSROOT_DIR)/Frameworks/epoxy.0.framework"; sourceTree = "<group>"; };
+		73DC37152D368086000595DA /* gstpbutils-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstpbutils-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstpbutils-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC37162D368086000595DA /* qemu-xtensa-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-xtensa-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-xtensa-softmmu.framework"; sourceTree = "<group>"; };
+		73DC37172D368086000595DA /* qemu-s390x-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-s390x-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-s390x-softmmu.framework"; sourceTree = "<group>"; };
+		73DC37182D368086000595DA /* qemu-microblaze-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-microblaze-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-microblaze-softmmu.framework"; sourceTree = "<group>"; };
+		73DC37192D368086000595DA /* qemu-m68k-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-m68k-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-m68k-softmmu.framework"; sourceTree = "<group>"; };
+		73DC371A2D368086000595DA /* gettextlib-0.22.5.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextlib-0.22.5.framework"; path = "$(SYSROOT_DIR)/Frameworks/gettextlib-0.22.5.framework"; sourceTree = "<group>"; };
+		73DC371B2D368086000595DA /* spice-server.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "spice-server.1.framework"; path = "$(SYSROOT_DIR)/Frameworks/spice-server.1.framework"; sourceTree = "<group>"; };
+		73DC371C2D368086000595DA /* gstallocators-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstallocators-1.0.0.framework"; path = "$(SYSROOT_DIR)/Frameworks/gstallocators-1.0.0.framework"; sourceTree = "<group>"; };
+		73DC371D2D368086000595DA /* qemu-riscv32-softmmu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "qemu-riscv32-softmmu.framework"; path = "$(SYSROOT_DIR)/Frameworks/qemu-riscv32-softmmu.framework"; sourceTree = "<group>"; };
+		73DC371E2D368086000595DA /* ssl.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ssl.1.1.framework; path = "$(SYSROOT_DIR)/Frameworks/ssl.1.1.framework"; sourceTree = "<group>"; };
 		73EA79222CF4D752007CD75B /* CoreUTM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreUTM; path = ../CoreUTM; sourceTree = SOURCE_ROOT; };
 		73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ssl.1.1.framework; path = "$(SYSROOT_DIR)/Frameworks/ssl.1.1.framework"; sourceTree = "<group>"; };
 		8401FD62269BE9C500265F0D /* QEMULauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QEMULauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1251,55 +1393,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03D0CC24D9144100F76B84 /* crypto.1.1.framework in Frameworks */,
 				736146CA2D34DE3F00EA8778 /* glib-2.0.0.framework in Frameworks */,
-				73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */,
-				CEA9058925FC69D100801E7C /* usbredirhost.1.framework in Frameworks */,
-				CEA9058A25FC69D100801E7C /* usbredirparser.1.framework in Frameworks */,
-				CEA9053825F981E900801E7C /* usb-1.0.0.framework in Frameworks */,
-				CE0B6F0E24AD677200FE012D /* libgstaudioconvert.a in Frameworks */,
-				CE0B6EF024AD677200FE012D /* gstcontroller-1.0.0.framework in Frameworks */,
-				CE0B6EE024AD677200FE012D /* libgstosxaudio.a in Frameworks */,
-				CE0B6F0D24AD677200FE012D /* libgstadder.a in Frameworks */,
-				CE0B6EF224AD677200FE012D /* gstallocators-1.0.0.framework in Frameworks */,
-				CE03D08B24D90F2900F76B84 /* jpeg.62.framework in Frameworks */,
 				CE0B6EBC24AD677200FE012D /* gstpbutils-1.0.0.framework in Frameworks */,
 				CEF83F872500948800557D15 /* gpg-error.0.framework in Frameworks */,
-				CE0B6ED324AD677200FE012D /* libgstvideoconvert.a in Frameworks */,
-				CE0B6F0124AD677200FE012D /* libgsttypefindfunctions.a in Frameworks */,
-				848308D5278A1F2200E3E474 /* Virtualization.framework in Frameworks */,
 				CE0B6EE124AD677200FE012D /* gstrtsp-1.0.0.framework in Frameworks */,
-				848F71E6277A2466006A0240 /* SwiftTerm in Frameworks */,
+				CE0B6EF224AD677200FE012D /* gstallocators-1.0.0.framework in Frameworks */,
 				CE03D08824D90F0700F76B84 /* gio-2.0.0.framework in Frameworks */,
-				73EDCDC52CE750CC00A581BE /* CoreUTM in Frameworks */,
-				CE0B6EEC24AD677200FE012D /* libgstautodetect.a in Frameworks */,
-				CE03D0C424D913AA00F76B84 /* ffi.7.framework in Frameworks */,
-				CE03D0CC24D9144100F76B84 /* crypto.1.1.framework in Frameworks */,
-				84A0A8882A47D5C50038F329 /* QEMUKit in Frameworks */,
-				84B36D2227B3265400C22685 /* CocoaSpice in Frameworks */,
-				CE0B6ED724AD677200FE012D /* gstaudio-1.0.0.framework in Frameworks */,
-				CE0B6EFA24AD677200FE012D /* gstapp-1.0.0.framework in Frameworks */,
-				CE03D0CE24D9A30100F76B84 /* iconv.2.framework in Frameworks */,
-				CE0B6EF124AD677200FE012D /* libgstplayback.a in Frameworks */,
-				CE0B6EF424AD677200FE012D /* json-glib-1.0.0.framework in Frameworks */,
-				CEDD11C12B7C74D7004DDAC6 /* SwiftPortmap in Frameworks */,
-				CE0B6ED124AD677200FE012D /* phodav-3.0.0.framework in Frameworks */,
-				7387DB992D34F92700A690FC /* (null) in Frameworks */,
 				CEF83F862500947D00557D15 /* gcrypt.20.framework in Frameworks */,
-				CE0B6ECB24AD677200FE012D /* gstcheck-1.0.0.framework in Frameworks */,
+				CE0B6F0C24AD677200FE012D /* gstreamer-1.0.0.framework in Frameworks */,
+				73DC374D2D36808B000595DA /* gettextsrc-0.22.5.framework in Frameworks */,
+				73DC37392D368089000595DA /* asprintf.0.framework in Frameworks */,
+				CE03D08724D90F0700F76B84 /* gobject-2.0.0.framework in Frameworks */,
+				CE0B6EFA24AD677200FE012D /* gstapp-1.0.0.framework in Frameworks */,
+				CE0B6EE524AD677200FE012D /* gstbase-1.0.0.framework in Frameworks */,
+				CE0B6EF024AD677200FE012D /* gstcontroller-1.0.0.framework in Frameworks */,
+				CE0B6EF824AD677200FE012D /* gstsdp-1.0.0.framework in Frameworks */,
+				CE0B6ED724AD677200FE012D /* gstaudio-1.0.0.framework in Frameworks */,
+				CE03D0CE24D9A30100F76B84 /* iconv.2.framework in Frameworks */,
+				738023A42D3689F4000EF8B7 /* gettextlib-0.22.5.framework in Frameworks */,
+				CE03D08B24D90F2900F76B84 /* jpeg.62.framework in Frameworks */,
+				CE0B6EF424AD677200FE012D /* json-glib-1.0.0.framework in Frameworks */,
+				CE0B6F0E24AD677200FE012D /* libgstaudioconvert.a in Frameworks */,
+				CE0B6F0D24AD677200FE012D /* libgstadder.a in Frameworks */,
+				CE0B6ED324AD677200FE012D /* libgstvideoconvert.a in Frameworks */,
+				738023A62D3689F4000EF8B7 /* gettextpo.0.framework in Frameworks */,
+				CE0B6EE024AD677200FE012D /* libgstosxaudio.a in Frameworks */,
+				CE0B6F0124AD677200FE012D /* libgsttypefindfunctions.a in Frameworks */,
+				CE0B6EEC24AD677200FE012D /* libgstautodetect.a in Frameworks */,
 				CE0B6F0724AD677200FE012D /* libgstvolume.a in Frameworks */,
+				CE0B6EF124AD677200FE012D /* libgstplayback.a in Frameworks */,
+				CE0B6EF324AD677200FE012D /* libgstvideofilter.a in Frameworks */,
+				CE0B6EE624AD677200FE012D /* libgstaudiorate.a in Frameworks */,
+				CE0B6EEA24AD677200FE012D /* libgstcoreelements.a in Frameworks */,
+				738023A32D3689F4000EF8B7 /* gstriff-1.0.0.framework in Frameworks */,
+				CE0B6F0224AD677200FE012D /* libgstjpeg.a in Frameworks */,
+				CE0B6EFC24AD677200FE012D /* libgstaudiotestsrc.a in Frameworks */,
+				CE0B6EC224AD677200FE012D /* libgstvideorate.a in Frameworks */,
 				CE03D0C624D913C600F76B84 /* opus.0.framework in Frameworks */,
 				CE03D0C824D913FD00F76B84 /* pixman-1.0.framework in Frameworks */,
-				CE0B6EE524AD677200FE012D /* gstbase-1.0.0.framework in Frameworks */,
-				CEF83F882500949D00557D15 /* gthread-2.0.0.framework in Frameworks */,
-				CE03D08724D90F0700F76B84 /* gobject-2.0.0.framework in Frameworks */,
+				CE0B6ED124AD677200FE012D /* phodav-3.0.0.framework in Frameworks */,
+				73DC37292D368087000595DA /* qemu-img.framework in Frameworks */,
+				73DC36C92D36807F000595DA /* slirp.0.framework in Frameworks */,
+				73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */,
+				73DC37452D36808A000595DA /* swtpm.0.framework in Frameworks */,
+				73DC37AB2D368094000595DA /* turbojpeg.0.framework in Frameworks */,
+				CEA9058A25FC69D100801E7C /* usbredirparser.1.framework in Frameworks */,
+				CEA9053825F981E900801E7C /* usb-1.0.0.framework in Frameworks */,
+				CEA9058925FC69D100801E7C /* usbredirhost.1.framework in Frameworks */,
+				848308D5278A1F2200E3E474 /* Virtualization.framework in Frameworks */,
+				73DC36C72D368055000595DA /* virglrenderer.1.framework in Frameworks */,
+				848F71E6277A2466006A0240 /* SwiftTerm in Frameworks */,
+				738023A12D368996000EF8B7 /* gstcheck-1.0.0.framework in Frameworks */,
+				73EDCDC52CE750CC00A581BE /* CoreUTM in Frameworks */,
+				84A0A8882A47D5C50038F329 /* QEMUKit in Frameworks */,
+				84B36D2227B3265400C22685 /* CocoaSpice in Frameworks */,
+				CEDD11C12B7C74D7004DDAC6 /* SwiftPortmap in Frameworks */,
+				738023AC2D3689F5000EF8B7 /* girepository-2.0.0.framework in Frameworks */,
 				CE9B15362B11A491003A32DD /* SwiftConnect in Frameworks */,
 				CE0B6F0A24AD677200FE012D /* spice-client-glib-2.0.8.framework in Frameworks */,
 				CE0B6ECF24AD677200FE012D /* gstrtp-1.0.0.framework in Frameworks */,
 				CE0B6ECC24AD677200FE012D /* gstriff-1.0.0.framework in Frameworks */,
 				CE0B6EDC24AD677200FE012D /* libgstapp.a in Frameworks */,
 				CE0B6F0324AD677200FE012D /* libgstvideoscale.a in Frameworks */,
+				73DC37AF2D368094000595DA /* epoxy.0.framework in Frameworks */,
 				CE0B6EC924AD677200FE012D /* gstvideo-1.0.0.framework in Frameworks */,
-				CE0B6EF324AD677200FE012D /* libgstvideofilter.a in Frameworks */,
+				73DC372B2D368087000595DA /* EGL.framework in Frameworks */,
+				73DC2B422D367EC8000595DA /* zstd.1.framework in Frameworks */,
 				CE020BA924AEDF3000B44AB6 /* Logging in Frameworks */,
 				CE0B6ECD24AD677200FE012D /* gsttag-1.0.0.framework in Frameworks */,
 				CE03D08A24D90F2900F76B84 /* intl.8.framework in Frameworks */,
@@ -1307,19 +1467,14 @@
 				CE0B6EE724AD677200FE012D /* libgstvideotestsrc.a in Frameworks */,
 				CE0B6EBB24AD677200FE012D /* libgstgio.a in Frameworks */,
 				CE0B6EE224AD677200FE012D /* gstnet-1.0.0.framework in Frameworks */,
+				73DC37972D368092000595DA /* textstyle.0.framework in Frameworks */,
 				CE03D08624D90F0700F76B84 /* gmodule-2.0.0.framework in Frameworks */,
 				CED297142CE425CB00F1E3EB /* soup-3.0.0.framework in Frameworks */,
 				CE0B6EC624AD677200FE012D /* gstfft-1.0.0.framework in Frameworks */,
-				CE0B6EE624AD677200FE012D /* libgstaudiorate.a in Frameworks */,
 				CEF83F8A250094B200557D15 /* spice-server.1.framework in Frameworks */,
-				CE0B6EC224AD677200FE012D /* libgstvideorate.a in Frameworks */,
-				CE0B6F0C24AD677200FE012D /* gstreamer-1.0.0.framework in Frameworks */,
 				CEF83F89250094A400557D15 /* png16.16.framework in Frameworks */,
-				CE0B6F0224AD677200FE012D /* libgstjpeg.a in Frameworks */,
-				CE0B6EFC24AD677200FE012D /* libgstaudiotestsrc.a in Frameworks */,
-				CE0B6EF824AD677200FE012D /* gstsdp-1.0.0.framework in Frameworks */,
+				73DC36C12D368034000595DA /* slirp.0.framework in Frameworks */,
 				CE231D522BE03617006D6DC3 /* SwiftCopyfile in Frameworks */,
-				CE0B6EEA24AD677200FE012D /* libgstcoreelements.a in Frameworks */,
 				83993290272F4A400059355F /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1513,6 +1668,109 @@
 		CE2D63D622653C7300FC7E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				738023792D368993000EF8B7 /* gettextlib-0.22.5.framework */,
+				7380237F2D368993000EF8B7 /* gettextpo.0.framework */,
+				738023782D368993000EF8B7 /* gettextsrc-0.22.5.framework */,
+				7380237A2D368993000EF8B7 /* gio-2.0.0.framework */,
+				738023822D368993000EF8B7 /* girepository-2.0.0.framework */,
+				7380237C2D368993000EF8B7 /* gmodule-2.0.0.framework */,
+				738023762D368993000EF8B7 /* gobject-2.0.0.framework */,
+				738023832D368994000EF8B7 /* gstapp-1.0.0.framework */,
+				738023842D368994000EF8B7 /* gstcheck-1.0.0.framework */,
+				738023812D368993000EF8B7 /* gstcontroller-1.0.0.framework */,
+				738023802D368993000EF8B7 /* gstfft-1.0.0.framework */,
+				738023772D368993000EF8B7 /* gstriff-1.0.0.framework */,
+				7380237D2D368993000EF8B7 /* gstrtp-1.0.0.framework */,
+				7380237B2D368993000EF8B7 /* gstrtsp-1.0.0.framework */,
+				7380237E2D368993000EF8B7 /* gstsdp-1.0.0.framework */,
+				73DC36D92D368080000595DA /* asprintf.0.framework */,
+				73DC36F82D368082000595DA /* charset.1.framework */,
+				73DC37002D368083000595DA /* crypto.1.1.framework */,
+				73DC36D22D368080000595DA /* EGL.framework */,
+				73DC37142D368086000595DA /* epoxy.0.framework */,
+				73DC37022D368083000595DA /* ffi.7.framework */,
+				73DC370C2D368084000595DA /* gcrypt.20.framework */,
+				73DC371A2D368086000595DA /* gettextlib-0.22.5.framework */,
+				73DC36D42D368080000595DA /* gettextpo.0.framework */,
+				73DC36E32D368081000595DA /* gettextsrc-0.22.5.framework */,
+				73DC36EC2D368081000595DA /* gio-2.0.0.framework */,
+				73DC36FD2D368082000595DA /* girepository-2.0.0.framework */,
+				73DC36EB2D368081000595DA /* GLESv2.framework */,
+				73DC36F22D368082000595DA /* glib-2.0.0.framework */,
+				73DC36D72D368080000595DA /* gmodule-2.0.0.framework */,
+				73DC36FB2D368082000595DA /* gobject-2.0.0.framework */,
+				73DC36F92D368082000595DA /* gpg-error.0.framework */,
+				73DC371C2D368086000595DA /* gstallocators-1.0.0.framework */,
+				73DC370F2D368085000595DA /* gstapp-1.0.0.framework */,
+				73DC36CD2D36807F000595DA /* gstaudio-1.0.0.framework */,
+				73DC37012D368083000595DA /* gstbase-1.0.0.framework */,
+				73DC36DD2D368080000595DA /* gstcheck-1.0.0.framework */,
+				73DC36D82D368080000595DA /* gstcontroller-1.0.0.framework */,
+				73DC37112D368085000595DA /* gstfft-1.0.0.framework */,
+				73DC36D62D368080000595DA /* gstnet-1.0.0.framework */,
+				73DC37152D368086000595DA /* gstpbutils-1.0.0.framework */,
+				73DC36EE2D368081000595DA /* gstreamer-1.0.0.framework */,
+				73DC36E02D368081000595DA /* gstriff-1.0.0.framework */,
+				73DC370A2D368083000595DA /* gstrtp-1.0.0.framework */,
+				73DC36F32D368082000595DA /* gstrtsp-1.0.0.framework */,
+				73DC36D32D368080000595DA /* gstsdp-1.0.0.framework */,
+				73DC370B2D368084000595DA /* gsttag-1.0.0.framework */,
+				73DC370D2D368085000595DA /* gstvideo-1.0.0.framework */,
+				73DC36D02D368080000595DA /* gthread-2.0.0.framework */,
+				73DC36CC2D36807F000595DA /* iconv.2.framework */,
+				73DC37042D368083000595DA /* intl.8.framework */,
+				73DC37032D368083000595DA /* jpeg.62.framework */,
+				73DC36E22D368081000595DA /* json-glib-1.0.0.framework */,
+				73DC36F02D368082000595DA /* opus.0.framework */,
+				73DC36DC2D368080000595DA /* phodav-3.0.0.framework */,
+				73DC37092D368083000595DA /* pixman-1.0.framework */,
+				73DC37052D368083000595DA /* png16.16.framework */,
+				73DC36EF2D368082000595DA /* qemu-aarch64-softmmu.framework */,
+				73DC36F42D368082000595DA /* qemu-alpha-softmmu.framework */,
+				73DC36D52D368080000595DA /* qemu-arm-softmmu.framework */,
+				73DC36E42D368081000595DA /* qemu-avr-softmmu.framework */,
+				73DC36E82D368081000595DA /* qemu-cris-softmmu.framework */,
+				73DC36EA2D368081000595DA /* qemu-hppa-softmmu.framework */,
+				73DC36DA2D368080000595DA /* qemu-i386-softmmu.framework */,
+				73DC36D12D368080000595DA /* qemu-img.framework */,
+				73DC36F52D368082000595DA /* qemu-loongarch64-softmmu.framework */,
+				73DC37192D368086000595DA /* qemu-m68k-softmmu.framework */,
+				73DC37182D368086000595DA /* qemu-microblaze-softmmu.framework */,
+				73DC37062D368083000595DA /* qemu-microblazeel-softmmu.framework */,
+				73DC36E52D368081000595DA /* qemu-mips-softmmu.framework */,
+				73DC36FA2D368082000595DA /* qemu-mips64-softmmu.framework */,
+				73DC36CE2D36807F000595DA /* qemu-mips64el-softmmu.framework */,
+				73DC36F12D368082000595DA /* qemu-mipsel-softmmu.framework */,
+				73DC36F62D368082000595DA /* qemu-or1k-softmmu.framework */,
+				73DC36E72D368081000595DA /* qemu-ppc-softmmu.framework */,
+				73DC36DE2D368080000595DA /* qemu-ppc64-softmmu.framework */,
+				73DC371D2D368086000595DA /* qemu-riscv32-softmmu.framework */,
+				73DC36E62D368081000595DA /* qemu-riscv64-softmmu.framework */,
+				73DC36F72D368082000595DA /* qemu-rx-softmmu.framework */,
+				73DC37172D368086000595DA /* qemu-s390x-softmmu.framework */,
+				73DC370E2D368085000595DA /* qemu-sh4-softmmu.framework */,
+				73DC37132D368086000595DA /* qemu-sh4eb-softmmu.framework */,
+				73DC36E12D368081000595DA /* qemu-sparc-softmmu.framework */,
+				73DC37102D368085000595DA /* qemu-sparc64-softmmu.framework */,
+				73DC36DB2D368080000595DA /* qemu-tricore-softmmu.framework */,
+				73DC36CF2D36807F000595DA /* qemu-x86_64-softmmu.framework */,
+				73DC37162D368086000595DA /* qemu-xtensa-softmmu.framework */,
+				73DC36E92D368081000595DA /* qemu-xtensaeb-softmmu.framework */,
+				73DC37072D368083000595DA /* soup-3.0.0.framework */,
+				73DC36FC2D368082000595DA /* spice-client-glib-2.0.8.framework */,
+				73DC371B2D368086000595DA /* spice-server.1.framework */,
+				73DC371E2D368086000595DA /* ssl.1.1.framework */,
+				73DC36DF2D368081000595DA /* swtpm.0.framework */,
+				73DC37082D368083000595DA /* textstyle.0.framework */,
+				73DC37122D368085000595DA /* turbojpeg.0.framework */,
+				73DC36FE2D368082000595DA /* usb-1.0.0.framework */,
+				73DC36FF2D368083000595DA /* usbredirhost.1.framework */,
+				73DC36ED2D368081000595DA /* usbredirparser.1.framework */,
+				73DC36C42D368055000595DA /* virglrenderer.1.framework */,
+				73DC36C32D368055000595DA /* zstd.1.framework */,
+				73DC36BD2D368005000595DA /* slirp.0.framework */,
+				73DC36C02D368034000595DA /* slirp.0.framework */,
+				73DC2B412D367EC8000595DA /* zstd.1.framework */,
 				736146C92D34DE3F00EA8778 /* glib-2.0.0.framework */,
 				73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */,
 				CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */,
@@ -2432,6 +2690,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/sysroot-macOS-arm64_x86_64/Frameworks",
 					"$(PROJECT_DIR)/sysroot-macOS-arm64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-macos-arm64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-ios_simulator-arm64/Frameworks",
+					"$(PROJECT_DIR)/$(SYSROOT_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_JIT=1",
@@ -2447,6 +2708,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sysroot-macOS-arm64/lib",
+					"$(PROJECT_DIR)/$(SYSROOT_DIR)/lib/gstreamer-1.0",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -2468,6 +2730,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/sysroot-macOS-arm64_x86_64/Frameworks",
 					"$(PROJECT_DIR)/sysroot-macOS-arm64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-macos-arm64/Frameworks",
+					"$(PROJECT_DIR)/sysroot-ios_simulator-arm64/Frameworks",
+					"$(PROJECT_DIR)/$(SYSROOT_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"WITH_JIT=1",
@@ -2483,6 +2748,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sysroot-macOS-arm64/lib",
+					"$(PROJECT_DIR)/$(SYSROOT_DIR)/lib/gstreamer-1.0",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -2501,7 +2767,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -2537,7 +2803,7 @@
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/$(QUOTED_SYSROOT_DIR)/Frameworks";
-				GCC_C_LANGUAGE_STANDARD = c17;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2596,7 +2862,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -2632,7 +2898,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/$(QUOTED_SYSROOT_DIR)/Frameworks";
-				GCC_C_LANGUAGE_STANDARD = c17;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;

@@ -46,7 +46,7 @@ public final class UTMSpiceIO : NSObject, QEMUInterface {
 
     private let parameters: Parameters
     private let options: UTMSpiceIOOptions
-    private var spiceConnection: CSConnection!
+    private var spiceConnection: CSConnection?
     private var spice: CSMain?
     private var sharedDirectory: URL?
     private var isConnected = false
@@ -107,7 +107,7 @@ public final class UTMSpiceIO : NSObject, QEMUInterface {
     }
 
     public func connect() throws {
-        guard spiceConnection.connect() else { return }
+        guard spiceConnection?.connect() == false else { return }
         throw NSError(domain: kUTMErrorDomain, code: -1, userInfo: [
             NSLocalizedDescriptionKey: NSLocalizedString("Internal error trying to connect to SPICE server.", comment: "UTMSpiceIO")
         ])
@@ -115,9 +115,11 @@ public final class UTMSpiceIO : NSObject, QEMUInterface {
 
     public func disconnect() {
         endSharingDirectory()
-        spiceConnection.disconnect()
-        spiceConnection.delegate = nil;
-        spiceConnection = nil;
+        if let spiceConnection {
+            spiceConnection.disconnect()
+            spiceConnection.delegate = nil;
+            self.spiceConnection = nil;
+        }
         spice = nil;
         primaryDisplay = nil;
         displays.removeAll(keepingCapacity: true)
@@ -139,6 +141,7 @@ extension UTMSpiceIO {
 
     private func initializeSpiceIfNeeded() {
         guard spiceConnection == nil else { return }
+        let spiceConnection: CSConnection
         switch parameters {
         case let .socket(url):
             let relativeSocketFile = URL(fileURLWithPath: url.lastPathComponent)
@@ -153,6 +156,7 @@ extension UTMSpiceIO {
         spiceConnection.audioEnabled = options.contains(.hasAudio)
         spiceConnection.session.shareClipboard = options.contains(.hasClipboardSharing)
         spiceConnection.session.pasteboardDelegate = UTMPasteboard.general
+        self.spiceConnection = spiceConnection
     }
 
 }
@@ -294,7 +298,7 @@ extension UTMSpiceIO {
     }
 
     private func startSharingDirectory() {
-        guard let sharedDirectory else { return }
+        guard let spiceConnection, let sharedDirectory else { return }
         UTMLogging.sharedInstance().writeLine("setting share directory to \(sharedDirectory.path)")
         _ = sharedDirectory.startAccessingSecurityScopedResource()
         spiceConnection.session.setSharedDirectory(sharedDirectory.path, readOnly: options.contains(.isShareReadOnly))
