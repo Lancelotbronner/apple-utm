@@ -14,36 +14,18 @@
 		738023902D368994000EF8B7 /* gstrtsp-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7380237B2D368993000EF8B7 /* gstrtsp-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		738023922D368995000EF8B7 /* gmodule-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7380237C2D368993000EF8B7 /* gmodule-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7380239E2D368995000EF8B7 /* girepository-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 738023822D368993000EF8B7 /* girepository-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		738023A12D368996000EF8B7 /* gstcheck-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023842D368994000EF8B7 /* gstcheck-1.0.0.framework */; };
-		738023A32D3689F4000EF8B7 /* gstriff-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023772D368993000EF8B7 /* gstriff-1.0.0.framework */; };
-		738023A42D3689F4000EF8B7 /* gettextlib-0.22.5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023792D368993000EF8B7 /* gettextlib-0.22.5.framework */; };
-		738023A62D3689F4000EF8B7 /* gettextpo.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7380237F2D368993000EF8B7 /* gettextpo.0.framework */; };
 		738023A92D3689F5000EF8B7 /* gettextsrc-0.22.5.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 738023782D368993000EF8B7 /* gettextsrc-0.22.5.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		738023AC2D3689F5000EF8B7 /* girepository-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738023822D368993000EF8B7 /* girepository-2.0.0.framework */; };
-		73DC2B422D367EC8000595DA /* zstd.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC2B412D367EC8000595DA /* zstd.1.framework */; };
 		73DC2B432D367EC8000595DA /* zstd.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC2B412D367EC8000595DA /* zstd.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC36C12D368034000595DA /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36C02D368034000595DA /* slirp.0.framework */; };
 		73DC36C22D368034000595DA /* slirp.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36C02D368034000595DA /* slirp.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC36C72D368055000595DA /* virglrenderer.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36C42D368055000595DA /* virglrenderer.1.framework */; };
 		73DC36C82D368055000595DA /* virglrenderer.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36C42D368055000595DA /* virglrenderer.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC36C92D36807F000595DA /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36C02D368034000595DA /* slirp.0.framework */; };
-		73DC37292D368087000595DA /* qemu-img.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36D12D368080000595DA /* qemu-img.framework */; };
-		73DC372B2D368087000595DA /* EGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36D22D368080000595DA /* EGL.framework */; };
 		73DC37302D368088000595DA /* gettextpo.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36D42D368080000595DA /* gettextpo.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC37392D368089000595DA /* asprintf.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36D92D368080000595DA /* asprintf.0.framework */; };
 		73DC373A2D368089000595DA /* asprintf.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36D92D368080000595DA /* asprintf.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC37452D36808A000595DA /* swtpm.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36DF2D368081000595DA /* swtpm.0.framework */; };
-		73DC374D2D36808B000595DA /* gettextsrc-0.22.5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC36E32D368081000595DA /* gettextsrc-0.22.5.framework */; };
 		73DC37502D36808B000595DA /* qemu-avr-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36E42D368081000595DA /* qemu-avr-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73DC37762D36808F000595DA /* qemu-rx-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36F72D368082000595DA /* qemu-rx-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		73DC37782D36808F000595DA /* charset.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC36F82D368082000595DA /* charset.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC37972D368092000595DA /* textstyle.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC37082D368083000595DA /* textstyle.0.framework */; };
 		73DC37982D368092000595DA /* textstyle.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC37082D368083000595DA /* textstyle.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC37AB2D368094000595DA /* turbojpeg.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC37122D368085000595DA /* turbojpeg.0.framework */; };
 		73DC37AC2D368094000595DA /* turbojpeg.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC37122D368085000595DA /* turbojpeg.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73DC37AF2D368094000595DA /* epoxy.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DC37142D368086000595DA /* epoxy.0.framework */; };
 		73DC37BC2D368096000595DA /* gettextlib-0.22.5.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 73DC371A2D368086000595DA /* gettextlib-0.22.5.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EDE63A2CE7761E00A581BE /* ssl.1.1.framework */; };
 		73EA90E02CF4D91E007CD75B /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CE020BA624AEDEF000B44AB6 /* Logging */; };
 		73EA90E12CF4D91E007CD75B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 83993291272F68550059355F /* ZIPFoundation */; };
 		73EA90E22CF4D91E007CD75B /* QEMUKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84A0A8892A47D5D10038F329 /* QEMUKit */; };
@@ -79,7 +61,6 @@
 		CE02C8B1294EE58C006DFE48 /* slirp.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; };
 		CE02C8B2294EE58C006DFE48 /* slirp.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A9294EE4EB006DFE48 /* slirp.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE02C8B6294EE59F006DFE48 /* qemu-loongarch64-softmmu.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE02C8A8294EE4EA006DFE48 /* qemu-loongarch64-softmmu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE03D08624D90F0700F76B84 /* gmodule-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63D822653C7300FC7E63 /* gmodule-2.0.0.framework */; };
 		CE03D08724D90F0700F76B84 /* gobject-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F522653C7400FC7E63 /* gobject-2.0.0.framework */; };
 		CE03D08824D90F0700F76B84 /* gio-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F822653C7400FC7E63 /* gio-2.0.0.framework */; };
 		CE03D08A24D90F2900F76B84 /* intl.8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DA22653C7300FC7E63 /* intl.8.framework */; };
@@ -88,13 +69,10 @@
 		CE03D09024D9124800F76B84 /* intl.8.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63DA22653C7300FC7E63 /* intl.8.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D09124D9124900F76B84 /* jpeg.62.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63D922653C7300FC7E63 /* jpeg.62.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D0C524D913AF00F76B84 /* ffi.7.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63E322653C7400FC7E63 /* ffi.7.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D0C624D913C600F76B84 /* opus.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640322653C7500FC7E63 /* opus.0.framework */; };
 		CE03D0C724D913E600F76B84 /* opus.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640322653C7500FC7E63 /* opus.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D0C824D913FD00F76B84 /* pixman-1.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641922653C7600FC7E63 /* pixman-1.0.framework */; };
 		CE03D0C924D9140A00F76B84 /* pixman-1.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641922653C7600FC7E63 /* pixman-1.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE03D0CC24D9144100F76B84 /* crypto.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */; };
 		CE03D0CD24D9144500F76B84 /* crypto.1.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640A22653C7500FC7E63 /* crypto.1.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CE03D0CE24D9A30100F76B84 /* iconv.2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641522653C7500FC7E63 /* iconv.2.framework */; };
 		CE03D0CF24D9A33000F76B84 /* iconv.2.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641522653C7500FC7E63 /* iconv.2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CE064C662A563F4B003C833D /* swtpm.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE064C642A563F4A003C833D /* swtpm.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE064C6A2A563F6E003C833D /* swtpm.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE064C642A563F4A003C833D /* swtpm.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -102,29 +80,18 @@
 		CE0B6EBB24AD677200FE012D /* libgstgio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19622265425A00355E14 /* libgstgio.a */; };
 		CE0B6EBC24AD677200FE012D /* gstpbutils-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640E22653C7500FC7E63 /* gstpbutils-1.0.0.framework */; };
 		CE0B6EC224AD677200FE012D /* libgstvideorate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19592265425900355E14 /* libgstvideorate.a */; };
-		CE0B6EC624AD677200FE012D /* gstfft-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640922653C7500FC7E63 /* gstfft-1.0.0.framework */; };
 		CE0B6EC924AD677200FE012D /* gstvideo-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F922653C7400FC7E63 /* gstvideo-1.0.0.framework */; };
-		CE0B6ECC24AD677200FE012D /* gstriff-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DE22653C7400FC7E63 /* gstriff-1.0.0.framework */; };
-		CE0B6ECD24AD677200FE012D /* gsttag-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F622653C7400FC7E63 /* gsttag-1.0.0.framework */; };
-		CE0B6ECF24AD677200FE012D /* gstrtp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DD22653C7400FC7E63 /* gstrtp-1.0.0.framework */; };
-		CE0B6ED124AD677200FE012D /* phodav-3.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE059DC0243BD67100338317 /* phodav-3.0.0.framework */; };
 		CE0B6ED324AD677200FE012D /* libgstvideoconvert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19542265425900355E14 /* libgstvideoconvert.a */; };
 		CE0B6ED724AD677200FE012D /* gstaudio-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63EF22653C7400FC7E63 /* gstaudio-1.0.0.framework */; };
 		CE0B6EDC24AD677200FE012D /* libgstapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19612265425900355E14 /* libgstapp.a */; };
 		CE0B6EE024AD677200FE012D /* libgstosxaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19652265425A00355E14 /* libgstosxaudio.a */; };
-		CE0B6EE124AD677200FE012D /* gstrtsp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640122653C7500FC7E63 /* gstrtsp-1.0.0.framework */; };
-		CE0B6EE224AD677200FE012D /* gstnet-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E522653C7400FC7E63 /* gstnet-1.0.0.framework */; };
 		CE0B6EE524AD677200FE012D /* gstbase-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E822653C7400FC7E63 /* gstbase-1.0.0.framework */; };
 		CE0B6EE624AD677200FE012D /* libgstaudiorate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D195F2265425900355E14 /* libgstaudiorate.a */; };
 		CE0B6EE724AD677200FE012D /* libgstvideotestsrc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19642265425A00355E14 /* libgstvideotestsrc.a */; };
 		CE0B6EEA24AD677200FE012D /* libgstcoreelements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19582265425900355E14 /* libgstcoreelements.a */; };
 		CE0B6EEC24AD677200FE012D /* libgstautodetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19522265425900355E14 /* libgstautodetect.a */; };
-		CE0B6EF024AD677200FE012D /* gstcontroller-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63EE22653C7400FC7E63 /* gstcontroller-1.0.0.framework */; };
 		CE0B6EF124AD677200FE012D /* libgstplayback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D195C2265425900355E14 /* libgstplayback.a */; };
-		CE0B6EF224AD677200FE012D /* gstallocators-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641122653C7500FC7E63 /* gstallocators-1.0.0.framework */; };
 		CE0B6EF324AD677200FE012D /* libgstvideofilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19602265425900355E14 /* libgstvideofilter.a */; };
-		CE0B6EF424AD677200FE012D /* json-glib-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63E222653C7400FC7E63 /* json-glib-1.0.0.framework */; };
-		CE0B6EF824AD677200FE012D /* gstsdp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641622653C7500FC7E63 /* gstsdp-1.0.0.framework */; };
 		CE0B6EF924AD677200FE012D /* libgstaudioresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D195B2265425900355E14 /* libgstaudioresample.a */; };
 		CE0B6EFA24AD677200FE012D /* gstapp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63DB22653C7300FC7E63 /* gstapp-1.0.0.framework */; };
 		CE0B6EFC24AD677200FE012D /* libgstaudiotestsrc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9D19532265425900355E14 /* libgstaudiotestsrc.a */; };
@@ -424,8 +391,6 @@
 		CEA9053D25F9824700801E7C /* usb-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9053725F981E900801E7C /* usb-1.0.0.framework */; };
 		CEA9054225F982C400801E7C /* usb-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CEA9053725F981E900801E7C /* usb-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CEA9054525F982CA00801E7C /* usb-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CEA9053725F981E900801E7C /* usb-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		CEA9058925FC69D100801E7C /* usbredirhost.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9058725FC69D100801E7C /* usbredirhost.1.framework */; };
-		CEA9058A25FC69D100801E7C /* usbredirparser.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9058825FC69D100801E7C /* usbredirparser.1.framework */; };
 		CEA9058F25FC6A1400801E7C /* usbredirhost.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9058725FC69D100801E7C /* usbredirhost.1.framework */; };
 		CEA9059025FC6A1700801E7C /* usbredirparser.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA9058825FC69D100801E7C /* usbredirparser.1.framework */; };
 		CEA9059125FC6A3300801E7C /* usbredirhost.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CEA9058725FC69D100801E7C /* usbredirhost.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -433,7 +398,6 @@
 		CEA9059525FC6A3A00801E7C /* usbredirhost.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CEA9058725FC69D100801E7C /* usbredirhost.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CEA9059625FC6A3B00801E7C /* usbredirparser.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CEA9058825FC69D100801E7C /* usbredirparser.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CEBDA1E524D8BDDB0010B5EC /* QEMUHelper.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = CEBDA1DA24D8BDDA0010B5EC /* QEMUHelper.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CED297142CE425CB00F1E3EB /* soup-3.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED297132CE425CA00F1E3EB /* soup-3.0.0.framework */; };
 		CED297152CE425CB00F1E3EB /* soup-3.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CED297132CE425CA00F1E3EB /* soup-3.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CED297192CE4263100F1E3EB /* soup-3.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED297132CE425CA00F1E3EB /* soup-3.0.0.framework */; };
 		CED2971A2CE4263100F1E3EB /* soup-3.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CED297132CE425CA00F1E3EB /* soup-3.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -549,10 +513,6 @@
 		CEF7F6CE2AEEDCC400E34952 /* gstpbutils-1.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640E22653C7500FC7E63 /* gstpbutils-1.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CEF7F6D62AEEEF7D00E34952 /* CocoaSpiceNoUsb in Frameworks */ = {isa = PBXBuildFile; productRef = CEF7F6D52AEEEF7D00E34952 /* CocoaSpiceNoUsb */; };
 		CEF83F262500901300557D15 /* qemu in Resources */ = {isa = PBXBuildFile; fileRef = CE9D18F72265410E00355E14 /* qemu */; };
-		CEF83F862500947D00557D15 /* gcrypt.20.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F322653C7400FC7E63 /* gcrypt.20.framework */; };
-		CEF83F872500948800557D15 /* gpg-error.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D63F122653C7400FC7E63 /* gpg-error.0.framework */; };
-		CEF83F89250094A400557D15 /* png16.16.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D640522653C7500FC7E63 /* png16.16.framework */; };
-		CEF83F8A250094B200557D15 /* spice-server.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D641822653C7500FC7E63 /* spice-server.1.framework */; };
 		CEF83F8B250094D700557D15 /* spice-server.1.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D641822653C7500FC7E63 /* spice-server.1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CEF83F8C250094E300557D15 /* png16.16.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D640522653C7500FC7E63 /* png16.16.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CEF83F8D250094E700557D15 /* gthread-2.0.0.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = CE2D63DC22653C7300FC7E63 /* gthread-2.0.0.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -1396,28 +1356,16 @@
 				CE03D0CC24D9144100F76B84 /* crypto.1.1.framework in Frameworks */,
 				736146CA2D34DE3F00EA8778 /* glib-2.0.0.framework in Frameworks */,
 				CE0B6EBC24AD677200FE012D /* gstpbutils-1.0.0.framework in Frameworks */,
-				CEF83F872500948800557D15 /* gpg-error.0.framework in Frameworks */,
-				CE0B6EE124AD677200FE012D /* gstrtsp-1.0.0.framework in Frameworks */,
-				CE0B6EF224AD677200FE012D /* gstallocators-1.0.0.framework in Frameworks */,
 				CE03D08824D90F0700F76B84 /* gio-2.0.0.framework in Frameworks */,
-				CEF83F862500947D00557D15 /* gcrypt.20.framework in Frameworks */,
 				CE0B6F0C24AD677200FE012D /* gstreamer-1.0.0.framework in Frameworks */,
-				73DC374D2D36808B000595DA /* gettextsrc-0.22.5.framework in Frameworks */,
-				73DC37392D368089000595DA /* asprintf.0.framework in Frameworks */,
 				CE03D08724D90F0700F76B84 /* gobject-2.0.0.framework in Frameworks */,
 				CE0B6EFA24AD677200FE012D /* gstapp-1.0.0.framework in Frameworks */,
 				CE0B6EE524AD677200FE012D /* gstbase-1.0.0.framework in Frameworks */,
-				CE0B6EF024AD677200FE012D /* gstcontroller-1.0.0.framework in Frameworks */,
-				CE0B6EF824AD677200FE012D /* gstsdp-1.0.0.framework in Frameworks */,
 				CE0B6ED724AD677200FE012D /* gstaudio-1.0.0.framework in Frameworks */,
-				CE03D0CE24D9A30100F76B84 /* iconv.2.framework in Frameworks */,
-				738023A42D3689F4000EF8B7 /* gettextlib-0.22.5.framework in Frameworks */,
 				CE03D08B24D90F2900F76B84 /* jpeg.62.framework in Frameworks */,
-				CE0B6EF424AD677200FE012D /* json-glib-1.0.0.framework in Frameworks */,
 				CE0B6F0E24AD677200FE012D /* libgstaudioconvert.a in Frameworks */,
 				CE0B6F0D24AD677200FE012D /* libgstadder.a in Frameworks */,
 				CE0B6ED324AD677200FE012D /* libgstvideoconvert.a in Frameworks */,
-				738023A62D3689F4000EF8B7 /* gettextpo.0.framework in Frameworks */,
 				CE0B6EE024AD677200FE012D /* libgstosxaudio.a in Frameworks */,
 				CE0B6F0124AD677200FE012D /* libgsttypefindfunctions.a in Frameworks */,
 				CE0B6EEC24AD677200FE012D /* libgstautodetect.a in Frameworks */,
@@ -1426,54 +1374,26 @@
 				CE0B6EF324AD677200FE012D /* libgstvideofilter.a in Frameworks */,
 				CE0B6EE624AD677200FE012D /* libgstaudiorate.a in Frameworks */,
 				CE0B6EEA24AD677200FE012D /* libgstcoreelements.a in Frameworks */,
-				738023A32D3689F4000EF8B7 /* gstriff-1.0.0.framework in Frameworks */,
 				CE0B6F0224AD677200FE012D /* libgstjpeg.a in Frameworks */,
 				CE0B6EFC24AD677200FE012D /* libgstaudiotestsrc.a in Frameworks */,
 				CE0B6EC224AD677200FE012D /* libgstvideorate.a in Frameworks */,
-				CE03D0C624D913C600F76B84 /* opus.0.framework in Frameworks */,
-				CE03D0C824D913FD00F76B84 /* pixman-1.0.framework in Frameworks */,
-				CE0B6ED124AD677200FE012D /* phodav-3.0.0.framework in Frameworks */,
-				73DC37292D368087000595DA /* qemu-img.framework in Frameworks */,
-				73DC36C92D36807F000595DA /* slirp.0.framework in Frameworks */,
-				73EA7D152CF4D831007CD75B /* ssl.1.1.framework in Frameworks */,
-				73DC37452D36808A000595DA /* swtpm.0.framework in Frameworks */,
-				73DC37AB2D368094000595DA /* turbojpeg.0.framework in Frameworks */,
-				CEA9058A25FC69D100801E7C /* usbredirparser.1.framework in Frameworks */,
 				CEA9053825F981E900801E7C /* usb-1.0.0.framework in Frameworks */,
-				CEA9058925FC69D100801E7C /* usbredirhost.1.framework in Frameworks */,
 				848308D5278A1F2200E3E474 /* Virtualization.framework in Frameworks */,
-				73DC36C72D368055000595DA /* virglrenderer.1.framework in Frameworks */,
 				848F71E6277A2466006A0240 /* SwiftTerm in Frameworks */,
-				738023A12D368996000EF8B7 /* gstcheck-1.0.0.framework in Frameworks */,
 				73EDCDC52CE750CC00A581BE /* CoreUTM in Frameworks */,
 				84A0A8882A47D5C50038F329 /* QEMUKit in Frameworks */,
 				84B36D2227B3265400C22685 /* CocoaSpice in Frameworks */,
 				CEDD11C12B7C74D7004DDAC6 /* SwiftPortmap in Frameworks */,
-				738023AC2D3689F5000EF8B7 /* girepository-2.0.0.framework in Frameworks */,
 				CE9B15362B11A491003A32DD /* SwiftConnect in Frameworks */,
 				CE0B6F0A24AD677200FE012D /* spice-client-glib-2.0.8.framework in Frameworks */,
-				CE0B6ECF24AD677200FE012D /* gstrtp-1.0.0.framework in Frameworks */,
-				CE0B6ECC24AD677200FE012D /* gstriff-1.0.0.framework in Frameworks */,
 				CE0B6EDC24AD677200FE012D /* libgstapp.a in Frameworks */,
 				CE0B6F0324AD677200FE012D /* libgstvideoscale.a in Frameworks */,
-				73DC37AF2D368094000595DA /* epoxy.0.framework in Frameworks */,
 				CE0B6EC924AD677200FE012D /* gstvideo-1.0.0.framework in Frameworks */,
-				73DC372B2D368087000595DA /* EGL.framework in Frameworks */,
-				73DC2B422D367EC8000595DA /* zstd.1.framework in Frameworks */,
 				CE020BA924AEDF3000B44AB6 /* Logging in Frameworks */,
-				CE0B6ECD24AD677200FE012D /* gsttag-1.0.0.framework in Frameworks */,
 				CE03D08A24D90F2900F76B84 /* intl.8.framework in Frameworks */,
 				CE0B6EF924AD677200FE012D /* libgstaudioresample.a in Frameworks */,
 				CE0B6EE724AD677200FE012D /* libgstvideotestsrc.a in Frameworks */,
 				CE0B6EBB24AD677200FE012D /* libgstgio.a in Frameworks */,
-				CE0B6EE224AD677200FE012D /* gstnet-1.0.0.framework in Frameworks */,
-				73DC37972D368092000595DA /* textstyle.0.framework in Frameworks */,
-				CE03D08624D90F0700F76B84 /* gmodule-2.0.0.framework in Frameworks */,
-				CED297142CE425CB00F1E3EB /* soup-3.0.0.framework in Frameworks */,
-				CE0B6EC624AD677200FE012D /* gstfft-1.0.0.framework in Frameworks */,
-				CEF83F8A250094B200557D15 /* spice-server.1.framework in Frameworks */,
-				CEF83F89250094A400557D15 /* png16.16.framework in Frameworks */,
-				73DC36C12D368034000595DA /* slirp.0.framework in Frameworks */,
 				CE231D522BE03617006D6DC3 /* SwiftCopyfile in Frameworks */,
 				83993290272F4A400059355F /* ZIPFoundation in Frameworks */,
 			);
@@ -2685,6 +2605,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(MAC_CODE_SIGN_ENTITLEMENTS)";
 				CODE_SIGN_IDENTITY = "$(CODE_SIGN_IDENTITY_MAC:default=-)";
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2725,6 +2646,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(MAC_CODE_SIGN_ENTITLEMENTS)";
 				CODE_SIGN_IDENTITY = "$(CODE_SIGN_IDENTITY_MAC:default=-)";
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
